@@ -1,0 +1,38 @@
+{
+  "title": "Grammar: Reflexive Pronouns",
+  "steps": [
+    { "english": "To get up", "spanish": "Levantarse", "type": "vocab" },
+    { "english": "I get up", "spanish": "Me levanto", "type": "vocab" },
+    { "english": "Early", "spanish": "Temprano", "type": "vocab" },
+    { "english": "I get up early", "spanish": "Me levanto temprano", "type": "build" },
+    { "english": "At seven", "spanish": "A las siete", "type": "vocab" },
+    { "english": "I get up early at seven", "spanish": "Me levanto temprano a las siete", "type": "build" },
+    { "english": "Every day", "spanish": "Todos los días", "type": "vocab" },
+    { "english": "I get up early at seven every day", "spanish": "Me levanto temprano a las siete todos los días", "type": "build" },
+
+    { "english": "To shower", "spanish": "Ducharse", "type": "vocab" },
+    { "english": "He showers", "spanish": "Se ducha", "type": "vocab" },
+    { "english": "Water", "spanish": "Agua", "type": "vocab" },
+    { "english": "Cold", "spanish": "Fría", "type": "vocab" },
+    { "english": "With cold water", "spanish": "Con agua fría", "type": "build" },
+    { "english": "He showers with cold water", "spanish": "Se ducha con agua fría", "type": "build" },
+    { "english": "In the morning", "spanish": "Por la mañana", "type": "vocab" },
+    { "english": "He showers with cold water in the morning", "spanish": "Se ducha con agua fría por la mañana", "type": "build" },
+
+    { "english": "To get dressed", "spanish": "Vestirse", "type": "vocab" },
+    { "english": "We get dressed", "spanish": "Nos vestimos", "type": "vocab" },
+    { "english": "Quickly", "spanish": "Rápido", "type": "vocab" },
+    { "english": "We get dressed quickly", "spanish": "Nos vestimos rápido", "type": "build" },
+    { "english": "Because", "spanish": "Porque", "type": "vocab" },
+    { "english": "We are late", "spanish": "Llegamos tarde", "type": "vocab" },
+    { "english": "We get dressed quickly because we are late", "spanish": "Nos vestimos rápido porque llegamos tarde", "type": "build" },
+
+    { "english": "To go to bed", "spanish": "Acostarse", "type": "vocab" },
+    { "english": "They go to bed", "spanish": "Se acuestan", "type": "vocab" },
+    { "english": "Late", "spanish": "Tarde", "type": "vocab" },
+    { "english": "They go to bed late", "spanish": "Se acuestan tarde", "type": "build" },
+    { "english": "Weekend", "spanish": "Fin de semana", "type": "vocab" },
+    { "english": "On weekends", "spanish": "Los fines de semana", "type": "vocab" },
+    { "english": "They go to bed late on weekends", "spanish": "Se acuestan tarde los fines de semana", "type": "build" }
+  ]
+}

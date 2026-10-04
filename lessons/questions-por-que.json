@@ -1,0 +1,43 @@
+{
+  "title": "Questions: Por qué",
+  "steps": [
+    { "english": "Why", "spanish": "Por qué", "type": "vocab" },
+    { "english": "Are you studying", "spanish": "Estudias", "type": "vocab" },
+    { "english": "Why are you studying...?", "spanish": "¿Por qué estudias...?", "type": "build" },
+    { "english": "Spanish", "spanish": "Español", "type": "vocab" },
+    { "english": "Why are you studying Spanish?", "spanish": "¿Por qué estudias español?", "type": "build" },
+    { "english": "Because", "spanish": "Porque", "type": "vocab" },
+    { "english": "I like it", "spanish": "Me gusta", "type": "vocab" },
+    { "english": "Because I like it", "spanish": "Porque me gusta", "type": "build" },
+    { "english": "Culture", "spanish": "Cultura", "type": "vocab" },
+    { "english": "The culture", "spanish": "La cultura", "type": "build" },
+    { "english": "Because I like the culture", "spanish": "Porque me gusta la cultura", "type": "build" },
+
+    { "english": "Did you buy", "spanish": "Compraste", "type": "vocab" },
+    { "english": "Why did you buy...?", "spanish": "¿Por qué compraste...?", "type": "build" },
+    { "english": "Car", "spanish": "Coche", "type": "vocab" },
+    { "english": "This car", "spanish": "Este coche", "type": "build" },
+    { "english": "Why did you buy this car?", "spanish": "¿Por qué compraste este coche?", "type": "build" },
+    { "english": "Is", "spanish": "Es", "type": "vocab" },
+    { "english": "Safe", "spanish": "Seguro", "type": "vocab" },
+    { "english": "Very safe", "spanish": "Muy seguro", "type": "build" },
+    { "english": "Because it is very safe", "spanish": "Porque es muy seguro", "type": "build" },
+
+    { "english": "Is it closed", "spanish": "Está cerrado", "type": "vocab" },
+    { "english": "Why is it closed?", "spanish": "¿Por qué está cerrado?", "type": "build" },
+    { "english": "Museum", "spanish": "Museo", "type": "vocab" },
+    { "english": "The museum", "spanish": "El museo", "type": "build" },
+    { "english": "Why is the museum closed?", "spanish": "¿Por qué está cerrado el museo?", "type": "build" },
+    { "english": "Today is", "spanish": "Hoy es", "type": "vocab" },
+    { "english": "Monday", "spanish": "Lunes", "type": "vocab" },
+    { "english": "Because today is Monday", "spanish": "Porque hoy es lunes", "type": "build" },
+
+    { "english": "Don't we go", "spanish": "No vamos", "type": "vocab" },
+    { "english": "Why don't we go...?", "spanish": "¿Por qué no vamos...?", "type": "build" },
+    { "english": "Beach", "spanish": "Playa", "type": "vocab" },
+    { "english": "To the beach", "spanish": "A la playa", "type": "build" },
+    { "english": "Why don't we go to the beach?", "spanish": "¿Por qué no vamos a la playa?", "type": "build" },
+    { "english": "It's cold (weather)", "spanish": "Hace frío", "type": "vocab" },
+    { "english": "Because it's cold", "spanish": "Porque hace frío", "type": "build" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Questions: Cuánto",
+  "steps": [
+    { "english": "How much (masculine)", "spanish": "Cuánto", "type": "vocab" },
+    { "english": "Time", "spanish": "Tiempo", "type": "vocab" },
+    { "english": "How much time", "spanish": "Cuánto tiempo", "type": "build" },
+    { "english": "Do we have", "spanish": "Tenemos", "type": "vocab" },
+    { "english": "How much time do we have?", "spanish": "¿Cuánto tiempo tenemos?", "type": "build" },
+    { "english": "Before", "spanish": "Antes de", "type": "vocab" },
+    { "english": "Meeting", "spanish": "Reunión", "type": "vocab" },
+    { "english": "The meeting", "spanish": "La reunión", "type": "build" },
+    { "english": "How much time do we have before the meeting?", "spanish": "¿Cuánto tiempo tenemos antes de la reunión?", "type": "build" },
+
+    { "english": "How much (feminine)", "spanish": "Cuánta", "type": "vocab" },
+    { "english": "Food", "spanish": "Comida", "type": "vocab" },
+    { "english": "How much food", "spanish": "Cuánta comida", "type": "build" },
+    { "english": "Do you need", "spanish": "Necesitas", "type": "vocab" },
+    { "english": "How much food do you need?", "spanish": "¿Cuánta comida necesitas?", "type": "build" },
+    { "english": "Party", "spanish": "Fiesta", "type": "vocab" },
+    { "english": "For the party", "spanish": "Para la fiesta", "type": "build" },
+    { "english": "How much food do you need for the party?", "spanish": "¿Cuánta comida necesitas para la fiesta?", "type": "build" },
+
+    { "english": "How many (masculine plural)", "spanish": "Cuántos", "type": "vocab" },
+    { "english": "Days", "spanish": "Días", "type": "vocab" },
+    { "english": "How many days", "spanish": "Cuántos días", "type": "build" },
+    { "english": "Are you going to stay", "spanish": "Vas a quedarte", "type": "vocab" },
+    { "english": "How many days are you going to stay?", "spanish": "¿Cuántos días vas a quedarte?", "type": "build" },
+    { "english": "In Madrid", "spanish": "En Madrid", "type": "vocab" },
+    { "english": "How many days are you going to stay in Madrid?", "spanish": "¿Cuántos días vas a quedarte en Madrid?", "type": "build" },
+
+    { "english": "How many (feminine plural)", "spanish": "Cuántas", "type": "vocab" },
+    { "english": "People", "spanish": "Personas", "type": "vocab" },
+    { "english": "How many people", "spanish": "Cuántas personas", "type": "build" },
+    { "english": "Are there", "spanish": "Hay", "type": "vocab" },
+    { "english": "How many people are there?", "spanish": "¿Cuántas personas hay?", "type": "build" },
+    { "english": "Team", "spanish": "Equipo", "type": "vocab" },
+    { "english": "In your team", "spanish": "En tu equipo", "type": "build" },
+    { "english": "How many people are there in your team?", "spanish": "¿Cuántas personas hay en tu equipo?", "type": "build" }
+  ]
+}

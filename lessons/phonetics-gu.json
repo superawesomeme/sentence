@@ -1,0 +1,205 @@
+{
+  "title": "Phonetics: GU",
+  "steps": [
+    {
+      "english": "Guitar",
+      "spanish": "Guitarra",
+      "type": "vocab"
+    },
+    {
+      "english": "The guitar",
+      "spanish": "La guitarra",
+      "type": "build"
+    },
+    {
+      "english": "Old",
+      "spanish": "Antigua",
+      "type": "vocab"
+    },
+    {
+      "english": "The old guitar",
+      "spanish": "La guitarra antigua",
+      "type": "build"
+    },
+    {
+      "english": "Boy",
+      "spanish": "Chico",
+      "type": "vocab"
+    },
+    {
+      "english": "Handsome",
+      "spanish": "Guapo",
+      "type": "vocab"
+    },
+    {
+      "english": "The handsome boy",
+      "spanish": "El chico guapo",
+      "type": "build"
+    },
+    {
+      "english": "Plays",
+      "spanish": "Toca",
+      "type": "vocab"
+    },
+    {
+      "english": "The handsome boy plays",
+      "spanish": "El chico guapo toca",
+      "type": "build"
+    },
+    {
+      "english": "The old guitar",
+      "spanish": "La guitarra antigua",
+      "type": "recall"
+    },
+    {
+      "english": "The handsome boy plays the old guitar",
+      "spanish": "El chico guapo toca la guitarra antigua",
+      "type": "build"
+    },
+    {
+      "english": "Water",
+      "spanish": "Agua",
+      "type": "vocab"
+    },
+    {
+      "english": "Some water",
+      "spanish": "Un poco de agua",
+      "type": "build"
+    },
+    {
+      "english": "Umbrella",
+      "spanish": "Paraguas",
+      "type": "vocab"
+    },
+    {
+      "english": "The umbrella",
+      "spanish": "El paraguas",
+      "type": "build"
+    },
+    {
+      "english": "Guide",
+      "spanish": "Guía",
+      "type": "vocab"
+    },
+    {
+      "english": "The guide",
+      "spanish": "El guía",
+      "type": "build"
+    },
+    {
+      "english": "Bilingual",
+      "spanish": "Bilingüe",
+      "type": "vocab"
+    },
+    {
+      "english": "The bilingual guide",
+      "spanish": "El guía bilingüe",
+      "type": "build"
+    },
+    {
+      "english": "Has",
+      "spanish": "Tiene",
+      "type": "vocab"
+    },
+    {
+      "english": "The bilingual guide has",
+      "spanish": "El guía bilingüe tiene",
+      "type": "build"
+    },
+    {
+      "english": "The bilingual guide has the umbrella",
+      "spanish": "El guía bilingüe tiene el paraguas",
+      "type": "build"
+    },
+    {
+      "english": "And needs",
+      "spanish": "Y necesita",
+      "type": "vocab"
+    },
+    {
+      "english": "And needs some water",
+      "spanish": "Y necesita un poco de agua",
+      "type": "build"
+    },
+    {
+      "english": "The bilingual guide",
+      "spanish": "El guía bilingüe",
+      "type": "recall"
+    },
+    {
+      "english": "The bilingual guide has the umbrella and needs some water",
+      "spanish": "El guía bilingüe tiene el paraguas y necesita un poco de agua",
+      "type": "build"
+    },
+    {
+      "english": "Peas",
+      "spanish": "Guisantes",
+      "type": "vocab"
+    },
+    {
+      "english": "Stew",
+      "spanish": "Guiso",
+      "type": "vocab"
+    },
+    {
+      "english": "The stew",
+      "spanish": "El guiso",
+      "type": "build"
+    },
+    {
+      "english": "For the stew",
+      "spanish": "Para el guiso",
+      "type": "build"
+    },
+    {
+      "english": "To get (obtain)",
+      "spanish": "Conseguir",
+      "type": "vocab"
+    },
+    {
+      "english": "I need to get",
+      "spanish": "Necesito conseguir",
+      "type": "build"
+    },
+    {
+      "english": "I need to get peas",
+      "spanish": "Necesito conseguir guisantes",
+      "type": "build"
+    },
+    {
+      "english": "I need to get peas for the stew",
+      "spanish": "Necesito conseguir guisantes para el guiso",
+      "type": "build"
+    },
+    {
+      "english": "Delicious",
+      "spanish": "Ricos",
+      "type": "vocab"
+    },
+    {
+      "english": "Very delicious",
+      "spanish": "Muy ricos",
+      "type": "build"
+    },
+    {
+      "english": "Because they are",
+      "spanish": "Porque son",
+      "type": "vocab"
+    },
+    {
+      "english": "Because they are very delicious",
+      "spanish": "Porque son muy ricos",
+      "type": "build"
+    },
+    {
+      "english": "To get",
+      "spanish": "Conseguir",
+      "type": "recall"
+    },
+    {
+      "english": "I need to get peas for the stew because they are very delicious",
+      "spanish": "Necesito conseguir guisantes para el guiso porque son muy ricos",
+      "type": "build"
+    }
+  ]
+}

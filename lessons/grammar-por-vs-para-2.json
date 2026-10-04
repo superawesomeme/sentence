@@ -1,0 +1,39 @@
+{
+  "title": "Grammar: Por vs. Para 2",
+  "steps": [
+    { "english": "For me (opinion)", "spanish": "Para mí", "type": "vocab" },
+    { "english": "Spanish", "spanish": "El español", "type": "vocab" },
+    { "english": "Is easy", "spanish": "Es fácil", "type": "vocab" },
+    { "english": "For me, Spanish is easy", "spanish": "Para mí, el español es fácil", "type": "build" },
+    { "english": "To understand", "spanish": "Entender", "type": "vocab" },
+    { "english": "For me, Spanish is easy to understand", "spanish": "Para mí, el español es fácil de entender", "type": "build" },
+
+    { "english": "We leave", "spanish": "Salimos", "type": "vocab" },
+    { "english": "For Madrid (destination)", "spanish": "Para Madrid", "type": "build" },
+    { "english": "We leave for Madrid", "spanish": "Salimos para Madrid", "type": "build" },
+    { "english": "Tomorrow", "spanish": "Mañana", "type": "vocab" },
+    { "english": "We leave for Madrid tomorrow", "spanish": "Salimos para Madrid mañana", "type": "build" },
+    { "english": "Plane", "spanish": "Avión", "type": "vocab" },
+    { "english": "By plane (means of transport)", "spanish": "Por avión", "type": "build" },
+    { "english": "We leave for Madrid tomorrow by plane", "spanish": "Salimos para Madrid mañana por avión", "type": "build" },
+
+    { "english": "I speak", "spanish": "Hablo", "type": "vocab" },
+    { "english": "Boss", "spanish": "Jefe", "type": "vocab" },
+    { "english": "With my boss", "spanish": "Con mi jefe", "type": "build" },
+    { "english": "I speak with my boss", "spanish": "Hablo con mi jefe", "type": "build" },
+    { "english": "Telephone", "spanish": "Teléfono", "type": "vocab" },
+    { "english": "By telephone", "spanish": "Por teléfono", "type": "build" },
+    { "english": "I speak with my boss by telephone", "spanish": "Hablo con mi jefe por teléfono", "type": "build" },
+    { "english": "Every day", "spanish": "Todos los días", "type": "vocab" },
+    { "english": "I speak with my boss by telephone every day", "spanish": "Hablo con mi jefe por teléfono todos los días", "type": "build" },
+
+    { "english": "Is there...?", "spanish": "¿Hay...?", "type": "vocab" },
+    { "english": "Supermarket", "spanish": "Supermercado", "type": "vocab" },
+    { "english": "A supermarket", "spanish": "Un supermercado", "type": "build" },
+    { "english": "Is there a supermarket...?", "spanish": "¿Hay un supermercado...?", "type": "build" },
+    { "english": "Around here (vague location)", "spanish": "Por aquí", "type": "build" },
+    { "english": "Is there a supermarket around here?", "spanish": "¿Hay un supermercado por aquí?", "type": "build" },
+    { "english": "Please", "spanish": "Por favor", "type": "vocab" },
+    { "english": "Is there a supermarket around here, please?", "spanish": "¿Hay un supermercado por aquí, por favor?", "type": "build" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Questions: Cómo",
+  "steps": [
+    { "english": "How", "spanish": "Cómo", "type": "vocab" },
+    { "english": "Are you", "spanish": "Estás", "type": "vocab" },
+    { "english": "How are you?", "spanish": "¿Cómo estás?", "type": "build" },
+    { "english": "Today", "spanish": "Hoy", "type": "vocab" },
+    { "english": "How are you today?", "spanish": "¿Cómo estás hoy?", "type": "build" },
+    { "english": "Family", "spanish": "Familia", "type": "vocab" },
+    { "english": "Your family", "spanish": "Tu familia", "type": "build" },
+    { "english": "Is", "spanish": "Está", "type": "vocab" },
+    { "english": "How is your family today?", "spanish": "¿Cómo está tu familia hoy?", "type": "build" },
+
+    { "english": "Is said", "spanish": "Se dice", "type": "vocab" },
+    { "english": "How do you say...?", "spanish": "¿Cómo se dice...?", "type": "build" },
+    { "english": "Word", "spanish": "Palabra", "type": "vocab" },
+    { "english": "This word", "spanish": "Esta palabra", "type": "build" },
+    { "english": "How do you say this word?", "spanish": "¿Cómo se dice esta palabra?", "type": "build" },
+    { "english": "In Spanish", "spanish": "En español", "type": "vocab" },
+    { "english": "How do you say this word in Spanish?", "spanish": "¿Cómo se dice esta palabra en español?", "type": "build" },
+
+    { "english": "It works", "spanish": "Funciona", "type": "vocab" },
+    { "english": "How does it work?", "spanish": "¿Cómo funciona?", "type": "build" },
+    { "english": "Machine", "spanish": "Máquina", "type": "vocab" },
+    { "english": "This machine", "spanish": "Esta máquina", "type": "build" },
+    { "english": "How does this machine work?", "spanish": "¿Cómo funciona esta máquina?", "type": "build" },
+    { "english": "Please", "spanish": "Por favor", "type": "vocab" },
+    { "english": "How does this machine work, please?", "spanish": "¿Cómo funciona esta máquina, por favor?", "type": "build" },
+
+    { "english": "I arrive", "spanish": "Llego", "type": "vocab" },
+    { "english": "How do I get there? (How do I arrive?)", "spanish": "¿Cómo llego?", "type": "build" },
+    { "english": "Station", "spanish": "Estación", "type": "vocab" },
+    { "english": "To the station", "spanish": "A la estación", "type": "build" },
+    { "english": "How do I get to the station?", "spanish": "¿Cómo llego a la estación?", "type": "build" },
+    { "english": "From here", "spanish": "Desde aquí", "type": "vocab" },
+    { "english": "How do I get to the station from here?", "spanish": "¿Cómo llego a la estación desde aquí?", "type": "build" }
+  ]
+}

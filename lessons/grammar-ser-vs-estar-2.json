@@ -1,0 +1,44 @@
+{
+  "title": "Grammar: Ser vs. Estar 2",
+  "steps": [
+    { "english": "To be (profession)", "spanish": "Ser", "type": "vocab" },
+    { "english": "Doctor", "spanish": "Médico", "type": "vocab" },
+    { "english": "I am a doctor", "spanish": "Soy médico", "type": "build" },
+    { "english": "To be (location)", "spanish": "Estar", "type": "vocab" },
+    { "english": "Hospital", "spanish": "Hospital", "type": "vocab" },
+    { "english": "In the hospital", "spanish": "En el hospital", "type": "build" },
+    { "english": "I am in the hospital", "spanish": "Estoy en el hospital", "type": "build" },
+    { "english": "I am a doctor and I am in the hospital", "spanish": "Soy médico y estoy en el hospital", "type": "build" },
+
+    { "english": "Party", "spanish": "Fiesta", "type": "vocab" },
+    { "english": "The party", "spanish": "La fiesta", "type": "build" },
+    { "english": "Is (event location)", "spanish": "Es", "type": "vocab" },
+    { "english": "House", "spanish": "Casa", "type": "vocab" },
+    { "english": "The party is in my house", "spanish": "La fiesta es en mi casa", "type": "build" },
+    { "english": "Is (object location)", "spanish": "Está", "type": "vocab" },
+    { "english": "Centre", "spanish": "Centro", "type": "vocab" },
+    { "english": "In the centre", "spanish": "En el centro", "type": "build" },
+    { "english": "My house is in the centre", "spanish": "Mi casa está en el centro", "type": "build" },
+    { "english": "The party is in my house and my house is in the centre", "spanish": "La fiesta es en mi casa y mi casa está en el centro", "type": "build" },
+
+    { "english": "Soup", "spanish": "Sopa", "type": "vocab" },
+    { "english": "The soup", "spanish": "La sopa", "type": "build" },
+    { "english": "Is (characteristic)", "spanish": "Es", "type": "vocab" },
+    { "english": "Good", "spanish": "Buena", "type": "vocab" },
+    { "english": "The soup is good", "spanish": "La sopa es buena", "type": "build" },
+    { "english": "Is (state/condition)", "spanish": "Está", "type": "vocab" },
+    { "english": "Cold", "spanish": "Fría", "type": "vocab" },
+    { "english": "But today", "spanish": "Pero hoy", "type": "vocab" },
+    { "english": "But today it is cold", "spanish": "Pero hoy está fría", "type": "build" },
+    { "english": "The soup is good, but today it is cold", "spanish": "La sopa es buena, pero hoy está fría", "type": "build" },
+
+    { "english": "Today", "spanish": "Hoy", "type": "vocab" },
+    { "english": "Today is (day/date)", "spanish": "Hoy es", "type": "vocab" },
+    { "english": "Friday", "spanish": "Viernes", "type": "vocab" },
+    { "english": "Today is Friday", "spanish": "Hoy es viernes", "type": "build" },
+    { "english": "We are (feeling)", "spanish": "Estamos", "type": "vocab" },
+    { "english": "Happy", "spanish": "Felices", "type": "vocab" },
+    { "english": "We are happy", "spanish": "Estamos felices", "type": "build" },
+    { "english": "Today is Friday and we are happy", "spanish": "Hoy es viernes y estamos felices", "type": "build" }
+  ]
+}

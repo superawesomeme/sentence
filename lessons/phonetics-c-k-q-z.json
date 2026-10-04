@@ -1,0 +1,310 @@
+{
+  "title": "Phonetics: C / K / Q / Z",
+  "steps": [
+    {
+      "english": "I want",
+      "spanish": "Quiero",
+      "type": "vocab"
+    },
+    {
+      "english": "To buy",
+      "spanish": "Comprar",
+      "type": "vocab"
+    },
+    {
+      "english": "I want to buy",
+      "spanish": "Quiero comprar",
+      "type": "build"
+    },
+    {
+      "english": "Shirts",
+      "spanish": "Camisas",
+      "type": "vocab"
+    },
+    {
+      "english": "Blue",
+      "spanish": "Azules",
+      "type": "vocab"
+    },
+    {
+      "english": "Blue shirts",
+      "spanish": "Camisas azules",
+      "type": "build"
+    },
+    {
+      "english": "I want to buy blue shirts",
+      "spanish": "Quiero comprar camisas azules",
+      "type": "build"
+    },
+    {
+      "english": "Fifty",
+      "spanish": "Cincuenta",
+      "type": "vocab"
+    },
+    {
+      "english": "Fifty blue shirts",
+      "spanish": "Cincuenta camisas azules",
+      "type": "build"
+    },
+    {
+      "english": "I want to buy fifty blue shirts",
+      "spanish": "Quiero comprar cincuenta camisas azules",
+      "type": "build"
+    },
+    {
+      "english": "Comfortable",
+      "spanish": "Cómodas",
+      "type": "vocab"
+    },
+    {
+      "english": "Very comfortable",
+      "spanish": "Muy cómodas",
+      "type": "build"
+    },
+    {
+      "english": "They are",
+      "spanish": "Son",
+      "type": "vocab"
+    },
+    {
+      "english": "They are very comfortable",
+      "spanish": "Son muy cómodas",
+      "type": "build"
+    },
+    {
+      "english": "Because",
+      "spanish": "Porque",
+      "type": "vocab"
+    },
+    {
+      "english": "Because they are very comfortable",
+      "spanish": "Porque son muy cómodas",
+      "type": "build"
+    },
+    {
+      "english": "I want to buy",
+      "spanish": "Quiero comprar",
+      "type": "recall"
+    },
+    {
+      "english": "I want to buy fifty blue shirts because they are very comfortable",
+      "spanish": "Quiero comprar cincuenta camisas azules porque son muy cómodas",
+      "type": "build"
+    },
+    {
+      "english": "I need",
+      "spanish": "Necesito",
+      "type": "vocab"
+    },
+    {
+      "english": "To cook",
+      "spanish": "Cocinar",
+      "type": "vocab"
+    },
+    {
+      "english": "I need to cook",
+      "spanish": "Necesito cocinar",
+      "type": "build"
+    },
+    {
+      "english": "Carrots",
+      "spanish": "Zanahorias",
+      "type": "vocab"
+    },
+    {
+      "english": "Fifteen",
+      "spanish": "Quince",
+      "type": "vocab"
+    },
+    {
+      "english": "Fifteen carrots",
+      "spanish": "Quince zanahorias",
+      "type": "build"
+    },
+    {
+      "english": "I need to cook fifteen carrots",
+      "spanish": "Necesito cocinar quince zanahorias",
+      "type": "build"
+    },
+    {
+      "english": "Onion",
+      "spanish": "Cebolla",
+      "type": "vocab"
+    },
+    {
+      "english": "With onion",
+      "spanish": "Con cebolla",
+      "type": "build"
+    },
+    {
+      "english": "Fifteen carrots with onion",
+      "spanish": "Quince zanahorias con cebolla",
+      "type": "build"
+    },
+    {
+      "english": "I need to cook fifteen carrots with onion",
+      "spanish": "Necesito cocinar quince zanahorias con cebolla",
+      "type": "build"
+    },
+    {
+      "english": "The dinner",
+      "spanish": "La cena",
+      "type": "vocab"
+    },
+    {
+      "english": "For dinner",
+      "spanish": "Para la cena",
+      "type": "build"
+    },
+    {
+      "english": "I need to cook...",
+      "spanish": "Necesito cocinar...",
+      "type": "recall"
+    },
+    {
+      "english": "I need to cook fifteen carrots with onion for dinner",
+      "spanish": "Necesito cocinar quince zanahorias con cebolla para la cena",
+      "type": "build"
+    },
+    {
+      "english": "Cheese",
+      "spanish": "Queso",
+      "type": "vocab"
+    },
+    {
+      "english": "A kilo",
+      "spanish": "Un kilo",
+      "type": "vocab"
+    },
+    {
+      "english": "A kilo of cheese",
+      "spanish": "Un kilo de queso",
+      "type": "build"
+    },
+    {
+      "english": "It costs",
+      "spanish": "Cuesta",
+      "type": "vocab"
+    },
+    {
+      "english": "A kilo of cheese costs",
+      "spanish": "Un kilo de queso cuesta",
+      "type": "build"
+    },
+    {
+      "english": "Fifteen",
+      "spanish": "Quince",
+      "type": "recall"
+    },
+    {
+      "english": "Euros",
+      "spanish": "Euros",
+      "type": "vocab"
+    },
+    {
+      "english": "Fifteen euros",
+      "spanish": "Quince euros",
+      "type": "build"
+    },
+    {
+      "english": "A kilo of cheese costs fifteen euros",
+      "spanish": "Un kilo de queso cuesta quince euros",
+      "type": "build"
+    },
+    {
+      "english": "Expensive",
+      "spanish": "Caro",
+      "type": "vocab"
+    },
+    {
+      "english": "Very expensive",
+      "spanish": "Muy caro",
+      "type": "build"
+    },
+    {
+      "english": "It is",
+      "spanish": "Es",
+      "type": "vocab"
+    },
+    {
+      "english": "It is very expensive",
+      "spanish": "Es muy caro",
+      "type": "build"
+    },
+    {
+      "english": "A kilo of cheese",
+      "spanish": "Un kilo de queso",
+      "type": "recall"
+    },
+    {
+      "english": "A kilo of cheese costs fifteen euros and it is very expensive",
+      "spanish": "Un kilo de queso cuesta quince euros y es muy caro",
+      "type": "build"
+    },
+    {
+      "english": "The account",
+      "spanish": "La cuenta",
+      "type": "vocab"
+    },
+    {
+      "english": "Bank",
+      "spanish": "Banco",
+      "type": "vocab"
+    },
+    {
+      "english": "The bank account",
+      "spanish": "La cuenta del banco",
+      "type": "build"
+    },
+    {
+      "english": "The password",
+      "spanish": "La contraseña",
+      "type": "vocab"
+    },
+    {
+      "english": "The password of the bank account",
+      "spanish": "La contraseña de la cuenta del banco",
+      "type": "build"
+    },
+    {
+      "english": "What is...?",
+      "spanish": "¿Cuál es...?",
+      "type": "vocab"
+    },
+    {
+      "english": "What is the password...?",
+      "spanish": "¿Cuál es la contraseña...?",
+      "type": "build"
+    },
+    {
+      "english": "What is the password of the bank account?",
+      "spanish": "¿Cuál es la contraseña de la cuenta del banco?",
+      "type": "build"
+    },
+    {
+      "english": "To change",
+      "spanish": "Cambiar",
+      "type": "vocab"
+    },
+    {
+      "english": "I want to change",
+      "spanish": "Quiero cambiar",
+      "type": "build"
+    },
+    {
+      "english": "The password",
+      "spanish": "La contraseña",
+      "type": "recall"
+    },
+    {
+      "english": "I want to change the password",
+      "spanish": "Quiero cambiar la contraseña",
+      "type": "build"
+    },
+    {
+      "english": "I want to change the password of the bank account",
+      "spanish": "Quiero cambiar la contraseña de la cuenta del banco",
+      "type": "build"
+    }
+  ]
+}

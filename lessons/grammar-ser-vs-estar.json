@@ -1,0 +1,40 @@
+{
+  "title": "Grammar: Ser vs. Estar",
+  "steps": [
+    { "english": "To be (identity / origin)", "spanish": "Ser", "type": "vocab" },
+    { "english": "I am", "spanish": "Soy", "type": "vocab" },
+    { "english": "Teacher", "spanish": "Profesor", "type": "vocab" },
+    { "english": "I am a teacher", "spanish": "Soy profesor", "type": "build" },
+    { "english": "From Spain", "spanish": "De España", "type": "vocab" },
+    { "english": "I am a teacher from Spain", "spanish": "Soy profesor de España", "type": "build" },
+    { "english": "To be (state / location)", "spanish": "Estar", "type": "vocab" },
+    { "english": "I am", "spanish": "Estoy", "type": "vocab" },
+    { "english": "Tired", "spanish": "Cansado", "type": "vocab" },
+    { "english": "I am tired", "spanish": "Estoy cansado", "type": "build" },
+    { "english": "Today", "spanish": "Hoy", "type": "vocab" },
+    { "english": "But today I am tired", "spanish": "Pero hoy estoy cansado", "type": "build" },
+    { "english": "I am a teacher from Spain", "spanish": "Soy profesor de España", "type": "recall" },
+    { "english": "I am a teacher from Spain, but today I am tired", "spanish": "Soy profesor de España, pero hoy estoy cansado", "type": "build" },
+
+    { "english": "Hospital", "spanish": "Hospital", "type": "vocab" },
+    { "english": "The hospital", "spanish": "El hospital", "type": "build" },
+    { "english": "Is (located)", "spanish": "Está", "type": "vocab" },
+    { "english": "The hospital is", "spanish": "El hospital está", "type": "build" },
+    { "english": "In the centre", "spanish": "En el centro", "type": "vocab" },
+    { "english": "The hospital is in the centre", "spanish": "El hospital está en el centro", "type": "build" },
+    { "english": "Is (description)", "spanish": "Es", "type": "vocab" },
+    { "english": "Big", "spanish": "Grande", "type": "vocab" },
+    { "english": "It is very big", "spanish": "Es muy grande", "type": "build" },
+    { "english": "The hospital is in the centre and it is very big", "spanish": "El hospital está en el centro y es muy grande", "type": "build" },
+
+    { "english": "Boring (characteristic)", "spanish": "Aburrido", "type": "vocab" },
+    { "english": "Film", "spanish": "Película", "type": "vocab" },
+    { "english": "The film", "spanish": "La película", "type": "build" },
+    { "english": "The film is boring", "spanish": "La película es aburrida", "type": "build" },
+    { "english": "Bored (feeling)", "spanish": "Aburrido", "type": "vocab" },
+    { "english": "We are", "spanish": "Estamos", "type": "vocab" },
+    { "english": "We are bored", "spanish": "Estamos aburridos", "type": "build" },
+    { "english": "Because", "spanish": "Porque", "type": "vocab" },
+    { "english": "We are bored because the film is boring", "spanish": "Estamos aburridos porque la película es aburrida", "type": "build" }
+  ]
+}

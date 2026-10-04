@@ -1,0 +1,39 @@
+{
+  "title": "Grammar: Saber vs. Conocer",
+  "steps": [
+    { "english": "To know (a fact)", "spanish": "Saber", "type": "vocab" },
+    { "english": "I know", "spanish": "Sé", "type": "vocab" },
+    { "english": "Where is", "spanish": "Dónde está", "type": "vocab" },
+    { "english": "Station", "spanish": "Estación", "type": "vocab" },
+    { "english": "The station", "spanish": "La estación", "type": "build" },
+    { "english": "I know where the station is", "spanish": "Sé dónde está la estación", "type": "build" },
+    { "english": "Do you know...?", "spanish": "¿Sabes...?", "type": "vocab" },
+    { "english": "Do you know where the station is?", "spanish": "¿Sabes dónde está la estación?", "type": "build" },
+
+    { "english": "To know (a place or person)", "spanish": "Conocer", "type": "vocab" },
+    { "english": "Do you know...?", "spanish": "¿Conoces...?", "type": "vocab" },
+    { "english": "Madrid", "spanish": "Madrid", "type": "vocab" },
+    { "english": "Do you know Madrid?", "spanish": "¿Conoces Madrid?", "type": "build" },
+    { "english": "I don't know", "spanish": "No conozco", "type": "vocab" },
+    { "english": "Area", "spanish": "Zona", "type": "vocab" },
+    { "english": "This area", "spanish": "Esta zona", "type": "build" },
+    { "english": "I don't know this area", "spanish": "No conozco esta zona", "type": "build" },
+    { "english": "Because", "spanish": "Porque", "type": "vocab" },
+    { "english": "Do you know where the station is?", "spanish": "¿Sabes dónde está la estación?", "type": "recall" },
+    { "english": "Do you know where the station is because I don't know this area?", "spanish": "¿Sabes dónde está la estación porque no conozco esta zona?", "type": "build" },
+
+    { "english": "To cook", "spanish": "Cocinar", "type": "vocab" },
+    { "english": "I know how to cook", "spanish": "Sé cocinar", "type": "build" },
+    { "english": "Paella", "spanish": "Paella", "type": "vocab" },
+    { "english": "I know how to cook paella", "spanish": "Sé cocinar paella", "type": "build" },
+    { "english": "I know (a person)", "spanish": "Conozco", "type": "vocab" },
+    { "english": "A chef", "spanish": "A un cocinero", "type": "vocab" },
+    { "english": "I know a chef", "spanish": "Conozco a un cocinero", "type": "build" },
+    { "english": "Good", "spanish": "Bueno", "type": "vocab" },
+    { "english": "Very good", "spanish": "Muy bueno", "type": "build" },
+    { "english": "I know a very good chef", "spanish": "Conozco a un cocinero muy bueno", "type": "build" },
+    { "english": "But", "spanish": "Pero", "type": "vocab" },
+    { "english": "I don't know how to cook", "spanish": "No sé cocinar", "type": "build" },
+    { "english": "I don't know how to cook paella, but I know a very good chef", "spanish": "No sé cocinar paella, pero conozco a un cocinero muy bueno", "type": "build" }
+  ]
+}

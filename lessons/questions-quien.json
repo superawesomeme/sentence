@@ -1,0 +1,36 @@
+{
+  "title": "Questions: Qué vs. Cuál",
+  "steps": [
+    { "english": "What", "spanish": "Qué", "type": "vocab" },
+    { "english": "Is", "spanish": "Es", "type": "vocab" },
+    { "english": "This", "spanish": "Esto", "type": "vocab" },
+    { "english": "What is this? (Asking for a definition)", "spanish": "¿Qué es esto?", "type": "build" },
+    { "english": "Which (or What for selection)", "spanish": "Cuál", "type": "vocab" },
+    { "english": "Favourite", "spanish": "Favorito", "type": "vocab" },
+    { "english": "Colour", "spanish": "Color", "type": "vocab" },
+    { "english": "What is your favourite colour? (Selection)", "spanish": "¿Cuál es tu color favorito?", "type": "build" },
+
+    { "english": "Book", "spanish": "Libro", "type": "vocab" },
+    { "english": "Which book (What book)", "spanish": "Qué libro", "type": "build" },
+    { "english": "Do you prefer", "spanish": "Prefieres", "type": "vocab" },
+    { "english": "Which book do you prefer?", "spanish": "¿Qué libro prefieres?", "type": "build" },
+    { "english": "To read", "spanish": "Leer", "type": "vocab" },
+    { "english": "Which book do you prefer to read?", "spanish": "¿Qué libro prefieres leer?", "type": "build" },
+
+    { "english": "Which one", "spanish": "Cuál", "type": "recall" },
+    { "english": "Which one do you prefer?", "spanish": "¿Cuál prefieres?", "type": "build" },
+    { "english": "Of these", "spanish": "De estos", "type": "vocab" },
+    { "english": "Which of these do you prefer?", "spanish": "¿Cuál de estos prefieres?", "type": "build" },
+    { "english": "To buy", "spanish": "Comprar", "type": "vocab" },
+    { "english": "Which of these do you prefer to buy?", "spanish": "¿Cuál de estos prefieres comprar?", "type": "build" },
+
+    { "english": "Which ones", "spanish": "Cuáles", "type": "vocab" },
+    { "english": "Are", "spanish": "Son", "type": "vocab" },
+    { "english": "Keys", "spanish": "Llaves", "type": "vocab" },
+    { "english": "Your keys", "spanish": "Tus llaves", "type": "build" },
+    { "english": "Which ones are your keys?", "spanish": "¿Cuáles son tus llaves?", "type": "build" },
+    { "english": "Table", "spanish": "Mesa", "type": "vocab" },
+    { "english": "On the table", "spanish": "En la mesa", "type": "build" },
+    { "english": "Which ones are your keys on the table?", "spanish": "¿Cuáles son tus llaves en la mesa?", "type": "build" }
+  ]
+}

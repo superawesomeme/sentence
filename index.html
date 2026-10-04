@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentence Builder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      user-select: none;
+    }
+    .whiteboard-stage {
+      aspect-ratio: 16 / 9;
+      max-height: calc(100vh - 8rem);
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 flex flex-col min-h-screen">
+
+  <!-- Top App Bar -->
+  <header class="bg-white border-b border-slate-200 px-6 py-3 flex-shrink-0 z-20 shadow-sm">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <span class="inline-flex items-center justify-center p-2 bg-blue-50 text-blue-600 rounded-xl">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+          </svg>
+        </span>
+        <div>
+          <h1 id="lessonTitleDisplay" class="text-lg font-bold text-slate-900 leading-tight">Phonetics: C / K / Q / Z</h1>
+          <p id="lessonSubtitle" class="text-xs text-slate-500">Sentence Builder Activity</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Pre-built Lessons Dropdown -->
+        <select id="lessonSelect" class="bg-slate-50 border border-slate-300 text-slate-700 text-sm font-semibold rounded-xl px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
+          <!-- Dynamic options injected by JavaScript -->
+        </select>
+
+        <!-- Load External JSON Button -->
+        <label class="cursor-pointer bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 px-3.5 py-2 rounded-xl text-sm font-semibold shadow-sm inline-flex items-center gap-2">
+          <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+          </svg>
+          Load File
+          <input type="file" id="fileInput" accept=".json" class="hidden">
+        </label>
+
+        <!-- View Switcher -->
+        <div class="bg-slate-200 p-1 rounded-xl flex items-center gap-1">
+          <button id="viewPlayerBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-white text-slate-900 shadow-sm">Player</button>
+          <button id="viewMakerBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-600 hover:text-slate-900">Maker</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Display Workspace -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-4 flex flex-col justify-center items-center">
+    
+    <!-- Whiteboard Player View -->
+    <div id="playerView" class="w-full whiteboard-stage bg-white rounded-3xl shadow-xl border border-slate-200/80 overflow-hidden flex flex-col">
+      <div class="h-1.5 bg-slate-100 w-full flex-shrink-0 overflow-hidden">
+        <div id="progressBar" class="h-full bg-blue-600 transition-all duration-300" style="width: 0%;"></div>
+      </div>
+
+      <div class="flex-1 grid grid-cols-12 overflow-hidden min-h-0">
+        
+        <!-- Central Presentation Screen -->
+        <div class="col-span-8 lg:col-span-9 relative flex items-center justify-center p-8 border-r border-slate-100 h-full">
+          
+          <!-- Absolute Badge Top Left -->
+          <div class="absolute top-8 left-8">
+            <span id="badgeStepType" class="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-blue-100 text-blue-700">
+              <!-- SVG and Text injected by JS -->
+            </span>
+          </div>
+
+          <!-- Absolute Left Chevron -->
+          <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 p-4 text-slate-300 hover:text-slate-700 hover:bg-slate-50 rounded-full transition-all disabled:opacity-0 active:scale-95 z-10">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <!-- Centralised Text Content -->
+          <div class="text-center space-y-10 w-full max-w-4xl px-20">
+            <!-- English Section -->
+            <div>
+              <p class="text-xs uppercase font-extrabold tracking-wider text-slate-400 mb-2">English</p>
+              <h2 id="englishText" class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-snug">
+                Welcome
+              </h2>
+            </div>
+
+            <!-- Spanish Section -->
+            <div>
+              <p class="text-xs uppercase font-extrabold tracking-wider text-slate-400 mb-2">Español</p>
+              <h2 id="spanishText" class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-snug min-h-[1.3em]">
+                Bienvenido
+              </h2>
+            </div>
+          </div>
+
+          <!-- Absolute Right Chevron -->
+          <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 p-4 text-slate-300 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-all active:scale-95 z-10">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          <!-- Absolute Step Counter Bottom Centre -->
+          <div class="absolute bottom-6 left-1/2 -translate-x-1/2">
+            <span id="stepCounter" class="text-sm font-bold text-slate-400 bg-slate-50 px-4 py-1.5 rounded-full">Step 1 of 1</span>
+          </div>
+
+        </div>
+
+        <!-- Scaffolding Step History Sidebar -->
+        <div class="col-span-4 lg:col-span-3 bg-slate-50/70 p-6 flex flex-col h-full overflow-hidden">
+          <h3 class="text-xs font-extrabold text-slate-400 tracking-wider uppercase mb-4 flex-shrink-0">Sentence Progression</h3>
+          <div id="historyList" class="flex-1 overflow-y-auto space-y-3 pr-2 min-h-0">
+            <!-- History items inject here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lesson Maker View (Admin Mode) -->
+    <div id="makerView" class="w-full whiteboard-stage bg-white rounded-3xl shadow-xl border border-slate-200 p-8 hidden flex-col overflow-hidden">
+      <div class="flex items-center justify-between border-b border-slate-200 pb-4 mb-6 flex-shrink-0">
+        <div>
+          <h2 class="text-xl font-bold text-slate-900">Lesson Builder Studio</h2>
+          <p class="text-sm text-slate-500">Design step-by-step scaffolding lessons and export clean JSON.</p>
+        </div>
+        <div class="flex gap-3">
+          <button id="addRowBtn" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-xl text-sm transition">
+            + Add Step
+          </button>
+          <button id="exportJsonBtn" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl text-sm shadow transition">
+            Export JSON
+          </button>
+        </div>
+      </div>
+
+      <div class="mb-4 flex-shrink-0">
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Lesson Title</label>
+        <input id="makerLessonTitle" type="text" placeholder="e.g. Phonetics: C / K / Q / Z" class="w-full max-w-md px-4 py-2 border border-slate-300 rounded-xl font-bold text-slate-800 outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+
+      <!-- Scrolling Table Wrapper -->
+      <div class="border border-slate-200 rounded-2xl flex-1 overflow-y-auto min-h-0 bg-white relative">
+        <table class="w-full text-left border-collapse">
+          <thead class="bg-slate-50 text-xs font-extrabold uppercase text-slate-500 sticky top-0 z-10 shadow-sm ring-1 ring-slate-200">
+            <tr>
+              <th class="p-3 w-12 text-center">#</th>
+              <th class="p-3">English Prompt</th>
+              <th class="p-3">Spanish Equivalent</th>
+              <th class="p-3 w-44">Step Type</th>
+              <th class="p-3 w-16 text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody id="makerTableBody" class="divide-y divide-slate-100 text-sm">
+            <!-- Dynamic rows will be inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-2 text-center text-xs font-semibold text-slate-400 flex-shrink-0">
+    Created by Shaun Daubney
+  </footer>
+
+  <script>
+    let activeLesson = {
+      title: "Loading...",
+      steps: []
+    };
+
+    let currentStepIndex = 0;
+    let isRevealed = false;
+
+    const lessonSelect = document.getElementById('lessonSelect');
+    const fileInput = document.getElementById('fileInput');
+    const viewPlayerBtn = document.getElementById('viewPlayerBtn');
+    const viewMakerBtn = document.getElementById('viewMakerBtn');
+    const playerView = document.getElementById('playerView');
+    const makerView = document.getElementById('makerView');
+
+    const lessonTitleDisplay = document.getElementById('lessonTitleDisplay');
+    const badgeStepType = document.getElementById('badgeStepType');
+    const englishText = document.getElementById('englishText');
+    const spanishText = document.getElementById('spanishText');
+    const stepCounter = document.getElementById('stepCounter');
+    const progressBar = document.getElementById('progressBar');
+    const historyList = document.getElementById('historyList');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    // SVG Icons
+    const iconLearn = `<svg class="w-4 h-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>`;
+    const iconBuild = `<svg class="w-4 h-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 21h5.25V15.75H13.5V10.5H18.75V5.25" /></svg>`;
+    const iconRecall = `<svg class="w-4 h-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>`;
+
+const availableLessons = [
+      // Phonetics
+      { path: "lessons/phonetics-b-v.json", name: "Phonetics: B / V" },
+      { path: "lessons/phonetics-c-k-q-z.json", name: "Phonetics: C / K / Q / Z" },
+      { path: "lessons/phonetics-g-j.json", name: "Phonetics: G / J" },
+      { path: "lessons/phonetics-gu.json", name: "Phonetics: GU" },
+      { path: "lessons/phonetics-ll-y.json", name: "Phonetics: LL / Y" },
+      { path: "lessons/phonetics-n-ene.json", name: "Phonetics: Ñ / N" },
+      { path: "lessons/phonetics-vowels.json", name: "Phonetics: Vowels A E I O U" },
+      
+      // Grammar
+      { path: "lessons/grammar-comparatives-superlatives.json", name: "Grammar: Comparatives and Superlatives" },
+      { path: "lessons/grammar-direct-objects.json", name: "Grammar: Direct Object Pronouns" },
+      { path: "lessons/grammar-indirect-objects.json", name: "Grammar: Indirect Object Pronouns" },
+      { path: "lessons/grammar-por-vs-para.json", name: "Grammar: Por vs. Para 1" },
+      { path: "lessons/grammar-por-vs-para-2.json", name: "Grammar: Por vs. Para 2" },
+      { path: "lessons/grammar-por-vs-para-3.json", name: "Grammar: Por vs. Para 3" },
+      { path: "lessons/grammar-prepositions-place.json", name: "Grammar: Prepositions of Place" },
+      { path: "lessons/grammar-reflexive-pronouns.json", name: "Grammar: Reflexive Pronouns" },
+      { path: "lessons/grammar-saber-vs-conocer.json", name: "Grammar: Saber vs. Conocer" },
+      { path: "lessons/grammar-ser-vs-estar.json", name: "Grammar: Ser vs. Estar 1" },
+      { path: "lessons/grammar-ser-vs-estar-2.json", name: "Grammar: Ser vs. Estar 2" },
+      { path: "lessons/grammar-ser-vs-estar-3.json", name: "Grammar: Ser vs. Estar 3" },
+
+      // Questions
+      { path: "lessons/questions-como.json", name: "Questions: Cómo" },
+      { path: "lessons/questions-cuando.json", name: "Questions: Cuándo" },
+      { path: "lessons/questions-cuanto.json", name: "Questions: Cuánto" },
+      { path: "lessons/questions-donde.json", name: "Questions: Dónde" },
+      { path: "lessons/questions-por-que.json", name: "Questions: Por qué" },
+      { path: "lessons/questions-que-vs-cual.json", name: "Questions: Qué vs. Cuál" },
+      { path: "lessons/questions-quien.json", name: "Questions: Quién" },
+
+      // Verbs
+      { path: "lessons/verbs-dar.json", name: "Verbs: Dar" },
+      { path: "lessons/verbs-dejar.json", name: "Verbs: Dejar" },
+      { path: "lessons/verbs-echar.json", name: "Verbs: Echar" },
+      { path: "lessons/verbs-llevar.json", name: "Verbs: Llevar" },
+      { path: "lessons/verbs-pasar.json", name: "Verbs: Pasar" },
+      { path: "lessons/verbs-poner.json", name: "Verbs: Poner" },
+      { path: "lessons/verbs-quedar.json", name: "Verbs: Quedar" },
+
+      // Tenses
+      { path: "lessons/tenses-condicional.json", name: "Tenses: Condicional Simple" },
+      { path: "lessons/tenses-futuro-simple.json", name: "Tenses: Futuro Simple" },
+      { path: "lessons/tenses-imperativo-afirmativo.json", name: "Tenses: Imperativo Afirmativo" },
+      { path: "lessons/tenses-imperativo-negativo.json", name: "Tenses: Imperativo Negativo" },
+      { path: "lessons/tenses-imperfecto.json", name: "Tenses: Imperfecto" },
+      { path: "lessons/tenses-preterito-indefinido.json", name: "Tenses: Pretérito Indefinido" },
+      { path: "lessons/tenses-preterito-perfecto.json", name: "Tenses: Pretérito Perfecto" },
+      { path: "lessons/tenses-subjuntivo.json", name: "Tenses: Presente de Subjuntivo" }
+    ];
+
+    // Alphabetise and populate the dropdown dynamically
+    availableLessons.sort((a, b) => a.name.localeCompare(b.name));
+    availableLessons.forEach(lesson => {
+      const option = document.createElement('option');
+      option.value = lesson.path;
+      option.textContent = lesson.name;
+      lessonSelect.appendChild(option);
+    });
+
+    async function loadLessonFromPath(path) {
+      try {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error('Network error loading lesson');
+        const data = await response.json();
+        setLesson(data);
+      } catch (err) {
+        console.warn('Direct fetch failed. Loading fallback placeholder:', err);
+        setLesson({
+          title: "Lesson File Ready",
+          steps: [
+            { english: "Please select or upload a lesson", spanish: "Por favor cargue una lección", type: "vocab" }
+          ]
+        });
+      }
+    }
+
+    function setLesson(data) {
+      activeLesson = data;
+      currentStepIndex = 0;
+      isRevealed = false;
+      lessonTitleDisplay.textContent = activeLesson.title || "Sentence Builder";
+      renderPlayer();
+      populateMakerFromLesson(activeLesson);
+    }
+
+    function renderPlayer() {
+      if (!activeLesson.steps || activeLesson.steps.length === 0) return;
+
+      const step = activeLesson.steps[currentStepIndex];
+      const isVocab = step.type === 'vocab';
+
+      englishText.textContent = step.english;
+      stepCounter.textContent = `Step ${currentStepIndex + 1} of ${activeLesson.steps.length}`;
+      progressBar.style.width = `${((currentStepIndex + 1) / activeLesson.steps.length) * 100}%`;
+
+      // Determine text colour and visibility dynamically
+      let textColorClass = "text-purple-600";
+      if (isVocab) {
+        textColorClass = "text-blue-600";
+      } else if (step.type === 'recall') {
+        textColorClass = "text-emerald-600";
+      }
+
+      let visibilityClass = "";
+      if (!isVocab && !isRevealed) {
+        visibilityClass = "invisible";
+      }
+
+      spanishText.className = `text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-snug min-h-[1.3em] ${textColorClass} ${visibilityClass}`;
+      spanishText.textContent = step.spanish;
+
+      if (isVocab) {
+        isRevealed = true;
+        badgeStepType.innerHTML = iconLearn + "Learn";
+        badgeStepType.className = "inline-flex items-center px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-blue-100 text-blue-700 shadow-sm";
+      } else if (step.type === 'recall') {
+        badgeStepType.innerHTML = iconRecall + "Recall";
+        badgeStepType.className = "inline-flex items-center px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-emerald-100 text-emerald-700 shadow-sm";
+      } else {
+        badgeStepType.innerHTML = iconBuild + "Build";
+        badgeStepType.className = "inline-flex items-center px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-purple-100 text-purple-700 shadow-sm";
+      }
+
+      prevBtn.disabled = currentStepIndex === 0;
+
+      historyList.innerHTML = '';
+      for (let i = 0; i <= currentStepIndex; i++) {
+        const hStep = activeLesson.steps[i];
+        const isCurrent = i === currentStepIndex;
+        const hStepIsVocab = hStep.type === 'vocab';
+        const item = document.createElement('div');
+        
+        item.className = `p-3 rounded-xl border text-xs transition-all ${
+          isCurrent 
+            ? 'bg-blue-50/70 border-blue-200 shadow-sm' 
+            : 'bg-white border-slate-200/60 opacity-75'
+        }`;
+        
+        let spanishDisplay = hStep.spanish;
+        if (isCurrent && !hStepIsVocab && !isRevealed) {
+          spanishDisplay = "• • • • •";
+        }
+
+        item.innerHTML = `
+          <p class="font-bold text-slate-800">${hStep.english}</p>
+          <p class="font-semibold text-blue-600 mt-0.5">${spanishDisplay}</p>
+        `;
+        historyList.appendChild(item);
+      }
+      historyList.scrollTop = historyList.scrollHeight;
+    }
+
+    function handleNext() {
+      const step = activeLesson.steps[currentStepIndex];
+      const isHiddenType = step.type === 'build' || step.type === 'recall';
+      
+      if (isHiddenType && !isRevealed) {
+        isRevealed = true;
+        renderPlayer();
+      } else if (currentStepIndex < activeLesson.steps.length - 1) {
+        currentStepIndex++;
+        isRevealed = false;
+        renderPlayer();
+      }
+    }
+
+    function handlePrev() {
+      if (currentStepIndex > 0) {
+        currentStepIndex--;
+        isRevealed = true;
+        renderPlayer();
+      }
+    }
+
+    nextBtn.addEventListener('click', handleNext);
+    prevBtn.addEventListener('click', handlePrev);
+
+    window.addEventListener('keydown', (e) => {
+      if (makerView.classList.contains('hidden')) {
+        if (e.key === 'ArrowRight' || e.key === ' ') {
+          e.preventDefault();
+          handleNext();
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          handlePrev();
+        }
+      }
+    });
+
+    lessonSelect.addEventListener('change', (e) => {
+      loadLessonFromPath(e.target.value);
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        try {
+          const parsed = JSON.parse(evt.target.result);
+          setLesson(parsed);
+        } catch (err) {
+          alert('Invalid JSON file format.');
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    viewPlayerBtn.addEventListener('click', () => {
+      playerView.classList.remove('hidden');
+      playerView.classList.add('flex');
+      makerView.classList.add('hidden');
+      makerView.classList.remove('flex');
+      viewPlayerBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-white text-slate-900 shadow-sm";
+      viewMakerBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-600 hover:text-slate-900";
+      renderPlayer();
+    });
+
+    viewMakerBtn.addEventListener('click', () => {
+      makerView.classList.remove('hidden');
+      makerView.classList.add('flex');
+      playerView.classList.add('hidden');
+      playerView.classList.remove('flex');
+      viewMakerBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-white text-slate-900 shadow-sm";
+      viewPlayerBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-600 hover:text-slate-900";
+    });
+
+    const makerLessonTitle = document.getElementById('makerLessonTitle');
+    const makerTableBody = document.getElementById('makerTableBody');
+    const addRowBtn = document.getElementById('addRowBtn');
+    const exportJsonBtn = document.getElementById('exportJsonBtn');
+
+    function populateMakerFromLesson(lesson) {
+      makerLessonTitle.value = lesson.title || "";
+      makerTableBody.innerHTML = '';
+      (lesson.steps || []).forEach(step => addMakerRow(step.english, step.spanish, step.type));
+    }
+
+    function addMakerRow(english = "", spanish = "", type = "vocab") {
+      const tr = document.createElement('tr');
+      const rowCount = makerTableBody.children.length + 1;
+      tr.innerHTML = `
+        <td class="p-3 text-center text-xs font-bold text-slate-400 row-number">${rowCount}</td>
+        <td class="p-2"><input type="text" value="${english}" placeholder="English" class="maker-eng w-full px-3 py-1.5 border border-slate-200 rounded-lg outline-none focus:border-blue-500"></td>
+        <td class="p-2"><input type="text" value="${spanish}" placeholder="Español" class="maker-esp w-full px-3 py-1.5 border border-slate-200 rounded-lg outline-none focus:border-blue-500"></td>
+        <td class="p-2">
+          <select class="maker-type w-full px-3 py-1.5 border border-slate-200 rounded-lg font-semibold outline-none focus:border-blue-500">
+            <option value="vocab" ${type === 'vocab' ? 'selected' : ''}>Learn</option>
+            <option value="build" ${type === 'build' ? 'selected' : ''}>Build</option>
+            <option value="recall" ${type === 'recall' ? 'selected' : ''}>Recall</option>
+          </select>
+        </td>
+        <td class="p-2 text-center">
+          <button class="delete-row-btn text-rose-500 hover:text-rose-700 font-bold p-1">×</button>
+        </td>
+      `;
+      tr.querySelector('.delete-row-btn').addEventListener('click', () => {
+        tr.remove();
+        refreshRowNumbers();
+      });
+      makerTableBody.appendChild(tr);
+    }
+
+    function refreshRowNumbers() {
+      Array.from(makerTableBody.querySelectorAll('.row-number')).forEach((td, idx) => {
+        td.textContent = idx + 1;
+      });
+    }
+
+    addRowBtn.addEventListener('click', () => addMakerRow());
+
+    exportJsonBtn.addEventListener('click', () => {
+      const rows = makerTableBody.querySelectorAll('tr');
+      const steps = [];
+      rows.forEach(r => {
+        const eng = r.querySelector('.maker-eng').value.trim();
+        const esp = r.querySelector('.maker-esp').value.trim();
+        const type = r.querySelector('.maker-type').value;
+        if (eng && esp) steps.push({ english: eng, spanish: esp, type });
+      });
+
+      const lessonData = {
+        title: makerLessonTitle.value.trim() || "Untitled Lesson",
+        steps
+      };
+
+      const blob = new Blob([JSON.stringify(lessonData, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${lessonData.title.toLowerCase().replace(/[^a-z0-9]/g, '-')}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    // Initialise the first lesson in the sorted array
+    loadLessonFromPath(lessonSelect.value);
+  </script>
+</body>
+</html>

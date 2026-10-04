@@ -1,0 +1,260 @@
+{
+  "title": "Phonetics: LL / Y",
+  "steps": [
+    {
+      "english": "The keys",
+      "spanish": "Las llaves",
+      "type": "vocab"
+    },
+    {
+      "english": "My keys",
+      "spanish": "Mis llaves",
+      "type": "build"
+    },
+    {
+      "english": "They are",
+      "spanish": "Están",
+      "type": "vocab"
+    },
+    {
+      "english": "My keys are",
+      "spanish": "Mis llaves están",
+      "type": "build"
+    },
+    {
+      "english": "Table",
+      "spanish": "Mesa",
+      "type": "vocab"
+    },
+    {
+      "english": "On the table",
+      "spanish": "En la mesa",
+      "type": "build"
+    },
+    {
+      "english": "My keys are on the table",
+      "spanish": "Mis llaves están en la mesa",
+      "type": "build"
+    },
+    {
+      "english": "To find",
+      "spanish": "Encontrar",
+      "type": "vocab"
+    },
+    {
+      "english": "I can't find",
+      "spanish": "No puedo encontrar",
+      "type": "vocab"
+    },
+    {
+      "english": "I can't find my keys",
+      "spanish": "No puedo encontrar mis llaves",
+      "type": "build"
+    },
+    {
+      "english": "Because",
+      "spanish": "Porque",
+      "type": "vocab"
+    },
+    {
+      "english": "I can't find my keys because...",
+      "spanish": "No puedo encontrar mis llaves porque...",
+      "type": "build"
+    },
+    {
+      "english": "They are on the table",
+      "spanish": "Están en la mesa",
+      "type": "recall"
+    },
+    {
+      "english": "I can't find my keys because they are on the table",
+      "spanish": "No puedo encontrar mis llaves porque están en la mesa",
+      "type": "build"
+    },
+    {
+      "english": "To arrive",
+      "spanish": "Llegar",
+      "type": "vocab"
+    },
+    {
+      "english": "I want to arrive",
+      "spanish": "Quiero llegar",
+      "type": "build"
+    },
+    {
+      "english": "Already",
+      "spanish": "Ya",
+      "type": "vocab"
+    },
+    {
+      "english": "I already want",
+      "spanish": "Ya quiero",
+      "type": "build"
+    },
+    {
+      "english": "I already want to arrive",
+      "spanish": "Ya quiero llegar",
+      "type": "build"
+    },
+    {
+      "english": "Hotel",
+      "spanish": "Hotel",
+      "type": "vocab"
+    },
+    {
+      "english": "At the hotel",
+      "spanish": "Al hotel",
+      "type": "build"
+    },
+    {
+      "english": "I already want to arrive at the hotel",
+      "spanish": "Ya quiero llegar al hotel",
+      "type": "build"
+    },
+    {
+      "english": "To carry",
+      "spanish": "Llevar",
+      "type": "vocab"
+    },
+    {
+      "english": "Because I carry",
+      "spanish": "Porque llevo",
+      "type": "build"
+    },
+    {
+      "english": "Suitcase",
+      "spanish": "Maleta",
+      "type": "vocab"
+    },
+    {
+      "english": "A suitcase",
+      "spanish": "Una maleta",
+      "type": "build"
+    },
+    {
+      "english": "Because I carry a suitcase",
+      "spanish": "Porque llevo una maleta",
+      "type": "build"
+    },
+    {
+      "english": "I already want to arrive at the hotel because I carry a suitcase",
+      "spanish": "Ya quiero llegar al hotel porque llevo una maleta",
+      "type": "build"
+    },
+    {
+      "english": "To help",
+      "spanish": "Ayudar",
+      "type": "vocab"
+    },
+    {
+      "english": "Can you help me?",
+      "spanish": "¿Puedes ayudarme?",
+      "type": "vocab"
+    },
+    {
+      "english": "To call",
+      "spanish": "Llamar",
+      "type": "vocab"
+    },
+    {
+      "english": "Can you help me to call...?",
+      "spanish": "¿Puedes ayudarme a llamar...?",
+      "type": "build"
+    },
+    {
+      "english": "Waiter",
+      "spanish": "Camarero",
+      "type": "vocab"
+    },
+    {
+      "english": "The waiter",
+      "spanish": "Al camarero",
+      "type": "build"
+    },
+    {
+      "english": "Can you help me to call the waiter?",
+      "spanish": "¿Puedes ayudarme a llamar al camarero?",
+      "type": "build"
+    },
+    {
+      "english": "Breakfast",
+      "spanish": "Desayuno",
+      "type": "vocab"
+    },
+    {
+      "english": "With the breakfast",
+      "spanish": "Con el desayuno",
+      "type": "build"
+    },
+    {
+      "english": "To help",
+      "spanish": "Ayudar",
+      "type": "recall"
+    },
+    {
+      "english": "Can you help me to call the waiter with the breakfast?",
+      "spanish": "¿Puedes ayudarme a llamar al camarero con el desayuno?",
+      "type": "build"
+    },
+    {
+      "english": "Rain",
+      "spanish": "Lluvia",
+      "type": "vocab"
+    },
+    {
+      "english": "The rain",
+      "spanish": "La lluvia",
+      "type": "build"
+    },
+    {
+      "english": "Street",
+      "spanish": "Calle",
+      "type": "vocab"
+    },
+    {
+      "english": "In the street",
+      "spanish": "En la calle",
+      "type": "build"
+    },
+    {
+      "english": "There is rain",
+      "spanish": "Hay lluvia",
+      "type": "build"
+    },
+    {
+      "english": "There is rain in the street",
+      "spanish": "Hay lluvia en la calle",
+      "type": "build"
+    },
+    {
+      "english": "To rain",
+      "spanish": "Llover",
+      "type": "vocab"
+    },
+    {
+      "english": "It is going to rain",
+      "spanish": "Va a llover",
+      "type": "build"
+    },
+    {
+      "english": "It is going to rain in the street",
+      "spanish": "Va a llover en la calle",
+      "type": "build"
+    },
+    {
+      "english": "Today",
+      "spanish": "Hoy",
+      "type": "vocab"
+    },
+    {
+      "english": "It is going to rain",
+      "spanish": "Va a llover",
+      "type": "recall"
+    },
+    {
+      "english": "Today it is going to rain in the street",
+      "spanish": "Hoy va a llover en la calle",
+      "type": "build"
+    }
+  ]
+}

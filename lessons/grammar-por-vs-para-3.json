@@ -1,0 +1,41 @@
+{
+  "title": "Grammar: Por vs. Para 3",
+  "steps": [
+    { "english": "To work", "spanish": "Trabajar", "type": "vocab" },
+    { "english": "I work", "spanish": "Trabajo", "type": "vocab" },
+    { "english": "Company", "spanish": "Empresa", "type": "vocab" },
+    { "english": "For a company (employment)", "spanish": "Para una empresa", "type": "build" },
+    { "english": "I work for a company", "spanish": "Trabajo para una empresa", "type": "build" },
+    { "english": "International", "spanish": "Internacional", "type": "vocab" },
+    { "english": "I work for an international company", "spanish": "Trabajo para una empresa internacional", "type": "build" },
+
+    { "english": "We arrive late", "spanish": "Llegamos tarde", "type": "vocab" },
+    { "english": "Traffic", "spanish": "Tráfico", "type": "vocab" },
+    { "english": "The traffic", "spanish": "El tráfico", "type": "build" },
+    { "english": "Because of the traffic (cause)", "spanish": "Por el tráfico", "type": "build" },
+    { "english": "We arrive late because of the traffic", "spanish": "Llegamos tarde por el tráfico", "type": "build" },
+    { "english": "Today", "spanish": "Hoy", "type": "vocab" },
+    { "english": "Today we arrive late because of the traffic", "spanish": "Hoy llegamos tarde por el tráfico", "type": "build" },
+    { "english": "Always", "spanish": "Siempre", "type": "vocab" },
+    { "english": "We always arrive late because of the traffic", "spanish": "Siempre llegamos tarde por el tráfico", "type": "build" },
+
+    { "english": "We buy", "spanish": "Compramos", "type": "vocab" },
+    { "english": "Wine", "spanish": "Vino", "type": "vocab" },
+    { "english": "We buy wine", "spanish": "Compramos vino", "type": "build" },
+    { "english": "Afternoon", "spanish": "Tarde", "type": "vocab" },
+    { "english": "In the afternoon (time period)", "spanish": "Por la tarde", "type": "build" },
+    { "english": "We buy wine in the afternoon", "spanish": "Compramos vino por la tarde", "type": "build" },
+    { "english": "Party", "spanish": "Fiesta", "type": "vocab" },
+    { "english": "For the party (purpose)", "spanish": "Para la fiesta", "type": "build" },
+    { "english": "We buy wine in the afternoon for the party", "spanish": "Compramos vino por la tarde para la fiesta", "type": "build" },
+
+    { "english": "To finish", "spanish": "Terminar", "type": "vocab" },
+    { "english": "We have to finish", "spanish": "Tenemos que terminar", "type": "build" },
+    { "english": "Report", "spanish": "Informe", "type": "vocab" },
+    { "english": "The report", "spanish": "El informe", "type": "build" },
+    { "english": "We have to finish the report", "spanish": "Tenemos que terminar el informe", "type": "build" },
+    { "english": "Friday", "spanish": "Viernes", "type": "vocab" },
+    { "english": "For Friday (deadline)", "spanish": "Para el viernes", "type": "build" },
+    { "english": "We have to finish the report for Friday", "spanish": "Tenemos que terminar el informe para el viernes", "type": "build" }
+  ]
+}

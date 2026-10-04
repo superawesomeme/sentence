@@ -1,0 +1,44 @@
+{
+  "title": "Grammar: Comparatives and Superlatives",
+  "steps": [
+    { "english": "Fast", "spanish": "Rápido", "type": "vocab" },
+    { "english": "More", "spanish": "Más", "type": "vocab" },
+    { "english": "Faster (more fast)", "spanish": "Más rápido", "type": "build" },
+    { "english": "Than", "spanish": "Que", "type": "vocab" },
+    { "english": "Faster than", "spanish": "Más rápido que", "type": "build" },
+    { "english": "Car", "spanish": "Coche", "type": "vocab" },
+    { "english": "My car", "spanish": "Mi coche", "type": "build" },
+    { "english": "My car is faster than", "spanish": "Mi coche es más rápido que", "type": "build" },
+    { "english": "Your car", "spanish": "Tu coche", "type": "build" },
+    { "english": "My car is faster than your car", "spanish": "Mi coche es más rápido que tu coche", "type": "build" },
+
+    { "english": "Interesting", "spanish": "Interesante", "type": "vocab" },
+    { "english": "Less", "spanish": "Menos", "type": "vocab" },
+    { "english": "Less interesting than", "spanish": "Menos interesante que", "type": "build" },
+    { "english": "Book", "spanish": "Libro", "type": "vocab" },
+    { "english": "This book", "spanish": "Este libro", "type": "build" },
+    { "english": "This book is less interesting than", "spanish": "Este libro es menos interesante que", "type": "build" },
+    { "english": "Film", "spanish": "Película", "type": "vocab" },
+    { "english": "The film", "spanish": "La película", "type": "build" },
+    { "english": "This book is less interesting than the film", "spanish": "Este libro es menos interesante que la película", "type": "build" },
+
+    { "english": "As... as...", "spanish": "Tan... como...", "type": "vocab" },
+    { "english": "Big", "spanish": "Grande", "type": "vocab" },
+    { "english": "As big as", "spanish": "Tan grande como", "type": "build" },
+    { "english": "House", "spanish": "Casa", "type": "vocab" },
+    { "english": "My house", "spanish": "Mi casa", "type": "build" },
+    { "english": "My house is as big as", "spanish": "Mi casa es tan grande como", "type": "build" },
+    { "english": "His house", "spanish": "Su casa", "type": "build" },
+    { "english": "My house is as big as his house", "spanish": "Mi casa es tan grande como su casa", "type": "build" },
+
+    { "english": "Good", "spanish": "Bueno", "type": "vocab" },
+    { "english": "Better", "spanish": "Mejor", "type": "vocab" },
+    { "english": "The best", "spanish": "El mejor", "type": "build" },
+    { "english": "Restaurant", "spanish": "Restaurante", "type": "vocab" },
+    { "english": "The best restaurant", "spanish": "El mejor restaurante", "type": "build" },
+    { "english": "City", "spanish": "Ciudad", "type": "vocab" },
+    { "english": "In the city (of the city)", "spanish": "De la ciudad", "type": "vocab" },
+    { "english": "This is", "spanish": "Este es", "type": "vocab" },
+    { "english": "This is the best restaurant in the city", "spanish": "Este es el mejor restaurante de la ciudad", "type": "build" }
+  ]
+}

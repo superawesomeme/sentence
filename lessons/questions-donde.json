@@ -1,0 +1,40 @@
+{
+  "title": "Questions: Dónde",
+  "steps": [
+    { "english": "Where", "spanish": "Dónde", "type": "vocab" },
+    { "english": "Is (location)", "spanish": "Está", "type": "vocab" },
+    { "english": "Where is...?", "spanish": "¿Dónde está...?", "type": "build" },
+    { "english": "Bathroom", "spanish": "Baño", "type": "vocab" },
+    { "english": "The bathroom", "spanish": "El baño", "type": "build" },
+    { "english": "Where is the bathroom?", "spanish": "¿Dónde está el baño?", "type": "build" },
+    { "english": "Nearest", "spanish": "Más cercano", "type": "vocab" },
+    { "english": "Where is the nearest bathroom?", "spanish": "¿Dónde está el baño más cercano?", "type": "build" },
+
+    { "english": "From where", "spanish": "De dónde", "type": "vocab" },
+    { "english": "Are you", "spanish": "Eres", "type": "vocab" },
+    { "english": "Where are you from?", "spanish": "¿De dónde eres?", "type": "build" },
+    { "english": "You live", "spanish": "Vives", "type": "vocab" },
+    { "english": "Where do you live?", "spanish": "¿Dónde vives?", "type": "build" },
+    { "english": "Now", "spanish": "Ahora", "type": "vocab" },
+    { "english": "Where do you live now?", "spanish": "¿Dónde vives ahora?", "type": "build" },
+
+    { "english": "To where", "spanish": "Adónde", "type": "vocab" },
+    { "english": "Are you going", "spanish": "Vas", "type": "vocab" },
+    { "english": "Where are you going?", "spanish": "¿Adónde vas?", "type": "build" },
+    { "english": "Holidays", "spanish": "Vacaciones", "type": "vocab" },
+    { "english": "On holiday", "spanish": "De vacaciones", "type": "build" },
+    { "english": "Where are you going on holiday?", "spanish": "¿Adónde vas de vacaciones?", "type": "build" },
+    { "english": "Year", "spanish": "Año", "type": "vocab" },
+    { "english": "This year", "spanish": "Este año", "type": "build" },
+    { "english": "Where are you going on holiday this year?", "spanish": "¿Adónde vas de vacaciones este año?", "type": "build" },
+
+    { "english": "Did you put", "spanish": "Pusiste", "type": "vocab" },
+    { "english": "Where did you put...?", "spanish": "¿Dónde pusiste...?", "type": "build" },
+    { "english": "Keys", "spanish": "Llaves", "type": "vocab" },
+    { "english": "The keys", "spanish": "Las llaves", "type": "build" },
+    { "english": "Where did you put the keys?", "spanish": "¿Dónde pusiste las llaves?", "type": "build" },
+    { "english": "Car", "spanish": "Coche", "type": "vocab" },
+    { "english": "The car keys", "spanish": "Las llaves del coche", "type": "build" },
+    { "english": "Where did you put the car keys?", "spanish": "¿Dónde pusiste las llaves del coche?", "type": "build" }
+  ]
+}

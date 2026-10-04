@@ -1,0 +1,290 @@
+{
+  "title": "Phonetics: G / J",
+  "steps": [
+    {
+      "english": "The cat",
+      "spanish": "El gato",
+      "type": "vocab"
+    },
+    {
+      "english": "Black",
+      "spanish": "Negro",
+      "type": "vocab"
+    },
+    {
+      "english": "The black cat",
+      "spanish": "El gato negro",
+      "type": "build"
+    },
+    {
+      "english": "Likes",
+      "spanish": "Le gusta",
+      "type": "vocab"
+    },
+    {
+      "english": "The black cat likes",
+      "spanish": "Al gato negro le gusta",
+      "type": "build"
+    },
+    {
+      "english": "To play",
+      "spanish": "Jugar",
+      "type": "vocab"
+    },
+    {
+      "english": "The black cat likes to play",
+      "spanish": "Al gato negro le gusta jugar",
+      "type": "build"
+    },
+    {
+      "english": "The garden",
+      "spanish": "El jardín",
+      "type": "vocab"
+    },
+    {
+      "english": "In the garden",
+      "spanish": "En el jardín",
+      "type": "build"
+    },
+    {
+      "english": "The black cat likes to play in the garden",
+      "spanish": "Al gato negro le gusta jugar en el jardín",
+      "type": "build"
+    },
+    {
+      "english": "Every day",
+      "spanish": "Todos los días",
+      "type": "vocab"
+    },
+    {
+      "english": "The black cat",
+      "spanish": "El gato negro",
+      "type": "recall"
+    },
+    {
+      "english": "The black cat likes to play in the garden every day",
+      "spanish": "Al gato negro le gusta jugar en el jardín todos los días",
+      "type": "build"
+    },
+    {
+      "english": "People",
+      "spanish": "La gente",
+      "type": "vocab"
+    },
+    {
+      "english": "In general",
+      "spanish": "En general",
+      "type": "vocab"
+    },
+    {
+      "english": "In general, people",
+      "spanish": "En general, la gente",
+      "type": "build"
+    },
+    {
+      "english": "Turn",
+      "spanish": "Gira",
+      "type": "vocab"
+    },
+    {
+      "english": "In general, people turn",
+      "spanish": "En general, la gente gira",
+      "type": "build"
+    },
+    {
+      "english": "To the left",
+      "spanish": "A la izquierda",
+      "type": "vocab"
+    },
+    {
+      "english": "In general, people turn to the left",
+      "spanish": "En general, la gente gira a la izquierda",
+      "type": "build"
+    },
+    {
+      "english": "Here",
+      "spanish": "Aquí",
+      "type": "vocab"
+    },
+    {
+      "english": "People",
+      "spanish": "La gente",
+      "type": "recall"
+    },
+    {
+      "english": "In general, people turn to the left here",
+      "spanish": "En general, la gente gira a la izquierda aquí",
+      "type": "build"
+    },
+    {
+      "english": "The manager",
+      "spanish": "El gerente",
+      "type": "vocab"
+    },
+    {
+      "english": "Needs",
+      "spanish": "Necesita",
+      "type": "vocab"
+    },
+    {
+      "english": "The manager needs",
+      "spanish": "El gerente necesita",
+      "type": "build"
+    },
+    {
+      "english": "To pay",
+      "spanish": "Pagar",
+      "type": "vocab"
+    },
+    {
+      "english": "The manager needs to pay",
+      "spanish": "El gerente necesita pagar",
+      "type": "build"
+    },
+    {
+      "english": "Toy",
+      "spanish": "Juguete",
+      "type": "vocab"
+    },
+    {
+      "english": "For the toy",
+      "spanish": "Por el juguete",
+      "type": "build"
+    },
+    {
+      "english": "The manager needs to pay for the toy",
+      "spanish": "El gerente necesita pagar por el juguete",
+      "type": "build"
+    },
+    {
+      "english": "Now",
+      "spanish": "Ahora",
+      "type": "vocab"
+    },
+    {
+      "english": "To pay",
+      "spanish": "Pagar",
+      "type": "recall"
+    },
+    {
+      "english": "The manager needs to pay for the toy now",
+      "spanish": "El gerente necesita pagar por el juguete ahora",
+      "type": "build"
+    },
+    {
+      "english": "Juice",
+      "spanish": "Jugo",
+      "type": "vocab"
+    },
+    {
+      "english": "Orange",
+      "spanish": "Naranja",
+      "type": "vocab"
+    },
+    {
+      "english": "The orange juice",
+      "spanish": "El jugo de naranja",
+      "type": "build"
+    },
+    {
+      "english": "I like",
+      "spanish": "Me gusta",
+      "type": "vocab"
+    },
+    {
+      "english": "I like the orange juice",
+      "spanish": "Me gusta el jugo de naranja",
+      "type": "build"
+    },
+    {
+      "english": "Cold",
+      "spanish": "Frío",
+      "type": "vocab"
+    },
+    {
+      "english": "Very cold",
+      "spanish": "Muy frío",
+      "type": "build"
+    },
+    {
+      "english": "I like the orange juice very cold",
+      "spanish": "Me gusta el jugo de naranja muy frío",
+      "type": "build"
+    },
+    {
+      "english": "Ice",
+      "spanish": "Hielo",
+      "type": "vocab"
+    },
+    {
+      "english": "With ice",
+      "spanish": "Con hielo",
+      "type": "build"
+    },
+    {
+      "english": "The orange juice",
+      "spanish": "El jugo de naranja",
+      "type": "recall"
+    },
+    {
+      "english": "I like the orange juice very cold with ice",
+      "spanish": "Me gusta el jugo de naranja muy frío con hielo",
+      "type": "build"
+    },
+    {
+      "english": "Trip",
+      "spanish": "Viaje",
+      "type": "vocab"
+    },
+    {
+      "english": "A trip",
+      "spanish": "Un viaje",
+      "type": "build"
+    },
+    {
+      "english": "To organise",
+      "spanish": "Organizar",
+      "type": "vocab"
+    },
+    {
+      "english": "To organise a trip",
+      "spanish": "Organizar un viaje",
+      "type": "build"
+    },
+    {
+      "english": "Important",
+      "spanish": "Importante",
+      "type": "vocab"
+    },
+    {
+      "english": "It is important",
+      "spanish": "Es importante",
+      "type": "build"
+    },
+    {
+      "english": "It is important to organise a trip",
+      "spanish": "Es importante organizar un viaje",
+      "type": "build"
+    },
+    {
+      "english": "July",
+      "spanish": "Julio",
+      "type": "vocab"
+    },
+    {
+      "english": "In July",
+      "spanish": "En julio",
+      "type": "build"
+    },
+    {
+      "english": "To organise",
+      "spanish": "Organizar",
+      "type": "recall"
+    },
+    {
+      "english": "It is important to organise a trip in July",
+      "spanish": "Es importante organizar un viaje en julio",
+      "type": "build"
+    }
+  ]
+}

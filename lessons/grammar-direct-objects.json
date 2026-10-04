@@ -1,0 +1,43 @@
+{
+  "title": "Grammar: Direct Object Pronouns",
+  "steps": [
+    { "english": "Book", "spanish": "Libro", "type": "vocab" },
+    { "english": "The book", "spanish": "El libro", "type": "build" },
+    { "english": "I read", "spanish": "Leo", "type": "vocab" },
+    { "english": "I read the book", "spanish": "Leo el libro", "type": "build" },
+    { "english": "It (masculine)", "spanish": "Lo", "type": "vocab" },
+    { "english": "I read it", "spanish": "Lo leo", "type": "build" },
+    { "english": "Every day", "spanish": "Todos los días", "type": "vocab" },
+    { "english": "I read it every day", "spanish": "Lo leo todos los días", "type": "build" },
+
+    { "english": "Pizza", "spanish": "Pizza", "type": "vocab" },
+    { "english": "The pizza", "spanish": "La pizza", "type": "build" },
+    { "english": "I eat", "spanish": "Como", "type": "vocab" },
+    { "english": "I eat the pizza", "spanish": "Como la pizza", "type": "build" },
+    { "english": "It (feminine)", "spanish": "La", "type": "vocab" },
+    { "english": "I eat it", "spanish": "La como", "type": "build" },
+    { "english": "Dinner", "spanish": "Cena", "type": "vocab" },
+    { "english": "For dinner", "spanish": "Para la cena", "type": "build" },
+    { "english": "I eat it for dinner", "spanish": "La como para la cena", "type": "build" },
+
+    { "english": "Tickets", "spanish": "Billetes", "type": "vocab" },
+    { "english": "The tickets", "spanish": "Los billetes", "type": "build" },
+    { "english": "You have", "spanish": "Tienes", "type": "vocab" },
+    { "english": "Do you have the tickets?", "spanish": "¿Tienes los billetes?", "type": "build" },
+    { "english": "Them (masculine)", "Los", "type": "vocab" },
+    { "english": "I have", "spanish": "Tengo", "type": "vocab" },
+    { "english": "Yes, I have them", "spanish": "Sí, los tengo", "type": "build" },
+    { "english": "Here", "spanish": "Aquí", "type": "vocab" },
+    { "english": "Yes, I have them here", "spanish": "Sí, los tengo aquí", "type": "build" },
+
+    { "english": "Keys", "spanish": "Llaves", "type": "vocab" },
+    { "english": "The keys", "spanish": "Las llaves", "type": "build" },
+    { "english": "I can't find", "spanish": "No puedo encontrar", "type": "vocab" },
+    { "english": "I can't find the keys", "spanish": "No puedo encontrar las llaves", "type": "build" },
+    { "english": "Them (feminine)", "Las", "type": "vocab" },
+    { "english": "I can't find them", "spanish": "No las puedo encontrar", "type": "build" },
+    { "english": "House", "spanish": "Casa", "type": "vocab" },
+    { "english": "In the house", "spanish": "En la casa", "type": "build" },
+    { "english": "I can't find them in the house", "spanish": "No las puedo encontrar en la casa", "type": "build" }
+  ]
+}

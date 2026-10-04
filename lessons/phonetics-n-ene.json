@@ -1,0 +1,220 @@
+{
+  "title": "Phonetics: Ñ / N",
+  "steps": [
+    {
+      "english": "Spanish",
+      "spanish": "Español",
+      "type": "vocab"
+    },
+    {
+      "english": "I study",
+      "spanish": "Estudio",
+      "type": "vocab"
+    },
+    {
+      "english": "I study Spanish",
+      "spanish": "Estudio español",
+      "type": "build"
+    },
+    {
+      "english": "Morning",
+      "spanish": "Mañana",
+      "type": "vocab"
+    },
+    {
+      "english": "Every",
+      "spanish": "Cada",
+      "type": "vocab"
+    },
+    {
+      "english": "Every morning",
+      "spanish": "Cada mañana",
+      "type": "build"
+    },
+    {
+      "english": "I study Spanish every morning",
+      "spanish": "Estudio español cada mañana",
+      "type": "build"
+    },
+    {
+      "english": "Autumn",
+      "spanish": "Otoño",
+      "type": "vocab"
+    },
+    {
+      "english": "In autumn",
+      "spanish": "En otoño",
+      "type": "build"
+    },
+    {
+      "english": "I study Spanish every morning in autumn",
+      "spanish": "Estudio español cada mañana en otoño",
+      "type": "build"
+    },
+    {
+      "english": "Year",
+      "spanish": "Año",
+      "type": "vocab"
+    },
+    {
+      "english": "Every year",
+      "spanish": "Cada año",
+      "type": "build"
+    },
+    {
+      "english": "I study Spanish",
+      "spanish": "Estudio español",
+      "type": "recall"
+    },
+    {
+      "english": "Every year in autumn, I study Spanish every morning",
+      "spanish": "Cada año en otoño, estudio español cada mañana",
+      "type": "build"
+    },
+    {
+      "english": "Classmate",
+      "spanish": "Compañero",
+      "type": "vocab"
+    },
+    {
+      "english": "My classmate",
+      "spanish": "Mi compañero",
+      "type": "build"
+    },
+    {
+      "english": "Has",
+      "spanish": "Tiene",
+      "type": "vocab"
+    },
+    {
+      "english": "My classmate has",
+      "spanish": "Mi compañero tiene",
+      "type": "build"
+    },
+    {
+      "english": "Child (Boy)",
+      "spanish": "Niño",
+      "type": "vocab"
+    },
+    {
+      "english": "A child",
+      "spanish": "Un niño",
+      "type": "build"
+    },
+    {
+      "english": "My classmate has a child",
+      "spanish": "Mi compañero tiene un niño",
+      "type": "build"
+    },
+    {
+      "english": "Birthday",
+      "spanish": "Cumpleaños",
+      "type": "vocab"
+    },
+    {
+      "english": "The birthday",
+      "spanish": "El cumpleaños",
+      "type": "build"
+    },
+    {
+      "english": "Of the child",
+      "spanish": "Del niño",
+      "type": "build"
+    },
+    {
+      "english": "The birthday of the child",
+      "spanish": "El cumpleaños del niño",
+      "type": "build"
+    },
+    {
+      "english": "Is",
+      "spanish": "Es",
+      "type": "vocab"
+    },
+    {
+      "english": "Tomorrow",
+      "spanish": "Mañana",
+      "type": "vocab"
+    },
+    {
+      "english": "The birthday of the child is tomorrow",
+      "spanish": "El cumpleaños del niño es mañana",
+      "type": "build"
+    },
+    {
+      "english": "My classmate",
+      "spanish": "Mi compañero",
+      "type": "recall"
+    },
+    {
+      "english": "My classmate has a child and the birthday is tomorrow",
+      "spanish": "Mi compañero tiene un niño y el cumpleaños es mañana",
+      "type": "build"
+    },
+    {
+      "english": "To show (or teach)",
+      "spanish": "Enseñar",
+      "type": "vocab"
+    },
+    {
+      "english": "I want",
+      "spanish": "Quiero",
+      "type": "vocab"
+    },
+    {
+      "english": "I want to show",
+      "spanish": "Quiero enseñar",
+      "type": "build"
+    },
+    {
+      "english": "Cabin",
+      "spanish": "Cabaña",
+      "type": "vocab"
+    },
+    {
+      "english": "The cabin",
+      "spanish": "La cabaña",
+      "type": "build"
+    },
+    {
+      "english": "Mountain",
+      "spanish": "Montaña",
+      "type": "vocab"
+    },
+    {
+      "english": "In the mountain",
+      "spanish": "En la montaña",
+      "type": "build"
+    },
+    {
+      "english": "The cabin in the mountain",
+      "spanish": "La cabaña en la montaña",
+      "type": "build"
+    },
+    {
+      "english": "I want to show",
+      "spanish": "Quiero enseñar",
+      "type": "recall"
+    },
+    {
+      "english": "I want to show the cabin in the mountain",
+      "spanish": "Quiero enseñar la cabaña en la montaña",
+      "type": "build"
+    },
+    {
+      "english": "Small",
+      "spanish": "Pequeña",
+      "type": "vocab"
+    },
+    {
+      "english": "The small cabin",
+      "spanish": "La cabaña pequeña",
+      "type": "build"
+    },
+    {
+      "english": "I want to show the small cabin in the mountain",
+      "spanish": "Quiero enseñar la cabaña pequeña en la montaña",
+      "type": "build"
+    }
+  ]
+}

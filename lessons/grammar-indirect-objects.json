@@ -1,0 +1,48 @@
+{
+  "title": "Grammar: Indirect Object Pronouns",
+  "steps": [
+    { "english": "Truth", "spanish": "Verdad", "type": "vocab" },
+    { "english": "The truth", "spanish": "La verdad", "type": "build" },
+    { "english": "I tell", "spanish": "Digo", "type": "vocab" },
+    { "english": "I tell you", "spanish": "Te digo", "type": "build" },
+    { "english": "I tell you the truth", "spanish": "Te digo la verdad", "type": "build" },
+    { "english": "Always", "spanish": "Siempre", "type": "vocab" },
+    { "english": "I always tell you the truth", "spanish": "Siempre te digo la verdad", "type": "build" },
+    { "english": "Because", "spanish": "Porque", "type": "vocab" },
+    { "english": "Friend", "spanish": "Amigo", "type": "vocab" },
+    { "english": "You are my friend", "spanish": "Eres mi amigo", "type": "build" },
+    { "english": "I always tell you the truth because you are my friend", "spanish": "Siempre te digo la verdad porque eres mi amigo", "type": "build" },
+
+    { "english": "Money", "spanish": "Dinero", "type": "vocab" },
+    { "english": "The money", "spanish": "El dinero", "type": "build" },
+    { "english": "I give", "spanish": "Doy", "type": "vocab" },
+    { "english": "I give to him", "spanish": "Le doy", "type": "build" },
+    { "english": "I give him the money", "spanish": "Le doy el dinero", "type": "build" },
+    { "english": "Today", "spanish": "Hoy", "type": "vocab" },
+    { "english": "I give him the money today", "spanish": "Le doy el dinero hoy", "type": "build" },
+    { "english": "To pay", "spanish": "Pagar", "type": "vocab" },
+    { "english": "In order to pay", "spanish": "Para pagar", "type": "build" },
+    { "english": "Bill", "spanish": "Cuenta", "type": "vocab" },
+    { "english": "The bill", "spanish": "La cuenta", "type": "build" },
+    { "english": "I give him the money today in order to pay the bill", "spanish": "Le doy el dinero hoy para pagar la cuenta", "type": "build" },
+
+    { "english": "Email", "spanish": "Correo", "type": "vocab" },
+    { "english": "An email", "spanish": "Un correo", "type": "build" },
+    { "english": "They write", "spanish": "Escriben", "type": "vocab" },
+    { "english": "They write to us", "spanish": "Nos escriben", "type": "build" },
+    { "english": "They write us an email", "spanish": "Nos escriben un correo", "type": "build" },
+    { "english": "Office", "spanish": "Oficina", "type": "vocab" },
+    { "english": "From the office", "spanish": "Desde la oficina", "type": "build" },
+    { "english": "They write us an email from the office", "spanish": "Nos escriben un correo desde la oficina", "type": "build" },
+
+    { "english": "Problem", "spanish": "Problema", "type": "vocab" },
+    { "english": "The problem", "spanish": "El problema", "type": "build" },
+    { "english": "You explain", "spanish": "Explicas", "type": "vocab" },
+    { "english": "You explain to them", "spanish": "Les explicas", "type": "build" },
+    { "english": "You explain the problem to them", "spanish": "Les explicas el problema", "type": "build" },
+    { "english": "Now", "spanish": "Ahora", "type": "vocab" },
+    { "english": "You explain the problem to them now", "spanish": "Les explicas el problema ahora", "type": "build" },
+    { "english": "Please", "spanish": "Por favor", "type": "vocab" },
+    { "english": "You explain the problem to them now, please", "spanish": "Les explicas el problema ahora, por favor", "type": "build" }
+  ]
+}

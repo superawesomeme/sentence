@@ -1,0 +1,48 @@
+{
+  "title": "Tenses: Imperativo Negativo",
+  "steps": [
+    { "english": "To speak", "spanish": "Hablar", "type": "recall" },
+    { "english": "Don't speak", "spanish": "No hables", "type": "vocab" },
+    { "english": "English", "spanish": "Inglés", "type": "vocab" },
+    { "english": "Don't speak English", "spanish": "No hables inglés", "type": "build" },
+    { "english": "Class", "spanish": "Clase", "type": "vocab" },
+    { "english": "In the class", "spanish": "En la clase", "type": "build" },
+    { "english": "Don't speak English in the class", "spanish": "No hables inglés en la clase", "type": "build" },
+    { "english": "Please", "spanish": "Por favor", "type": "recall" },
+    { "english": "Don't speak", "spanish": "No hables", "type": "recall" },
+    { "english": "Please, don't speak English in the class", "spanish": "Por favor, no hables inglés en la clase", "type": "build" },
+
+    { "english": "To eat", "spanish": "Comer", "type": "recall" },
+    { "english": "Don't eat", "spanish": "No comas", "type": "vocab" },
+    { "english": "Food", "spanish": "Comida", "type": "recall" },
+    { "english": "That food", "spanish": "Esa comida", "type": "build" },
+    { "english": "Don't eat that food", "spanish": "No comas esa comida", "type": "build" },
+    { "english": "Bad", "spanish": "Mala", "type": "recall" },
+    { "english": "It is bad", "spanish": "Está mala", "type": "build" },
+    { "english": "Because it is bad", "spanish": "Porque está mala", "type": "build" },
+    { "english": "Don't eat", "spanish": "No comas", "type": "recall" },
+    { "english": "Don't eat that food because it is bad", "spanish": "No comas esa comida porque está mala", "type": "build" },
+
+    { "english": "To do (or make)", "spanish": "Hacer", "type": "recall" },
+    { "english": "Don't do (or make)", "spanish": "No hagas", "type": "vocab" },
+    { "english": "Noise", "spanish": "Ruido", "type": "vocab" },
+    { "english": "Don't make noise", "spanish": "No hagas ruido", "type": "build" },
+    { "english": "Child", "spanish": "Niño", "type": "recall" },
+    { "english": "The child", "spanish": "El niño", "type": "build" },
+    { "english": "Is sleeping", "spanish": "Está durmiendo", "type": "vocab" },
+    { "english": "Because the child is sleeping", "spanish": "Porque el niño está durmiendo", "type": "build" },
+    { "english": "Don't make noise because the child is sleeping", "spanish": "No hagas ruido porque el niño está durmiendo", "type": "build" },
+
+    { "english": "To go", "spanish": "Ir", "type": "recall" },
+    { "english": "Don't go", "spanish": "No vayas", "type": "vocab" },
+    { "english": "Supermarket", "spanish": "Supermercado", "type": "recall" },
+    { "english": "To the supermarket", "spanish": "Al supermercado", "type": "build" },
+    { "english": "Don't go to the supermarket", "spanish": "No vayas al supermercado", "type": "build" },
+    { "english": "Today", "spanish": "Hoy", "type": "recall" },
+    { "english": "Don't go to the supermarket today", "spanish": "No vayas al supermercado hoy", "type": "build" },
+    { "english": "Closed", "spanish": "Cerrado", "type": "vocab" },
+    { "english": "It is closed", "spanish": "Está cerrado", "type": "build" },
+    { "english": "Don't go", "spanish": "No vayas", "type": "recall" },
+    { "english": "Don't go to the supermarket today because it is closed", "spanish": "No vayas al supermercado hoy porque está cerrado", "type": "build" }
+  ]
+}

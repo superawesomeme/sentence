@@ -1,0 +1,37 @@
+{
+  "title": "Grammar: Prepositions of Place",
+  "steps": [
+    { "english": "Opposite (or in front of)", "spanish": "Enfrente de", "type": "vocab" },
+    { "english": "Bank", "spanish": "Banco", "type": "vocab" },
+    { "english": "The bank is", "spanish": "El banco está", "type": "build" },
+    { "english": "The bank is opposite", "spanish": "El banco está enfrente de", "type": "build" },
+    { "english": "Supermarket", "spanish": "Supermercado", "type": "vocab" },
+    { "english": "The supermarket", "spanish": "El supermercado", "type": "build" },
+    { "english": "The bank is opposite the supermarket", "spanish": "El banco está enfrente del supermercado", "type": "build" },
+
+    { "english": "Next to", "spanish": "Al lado de", "type": "vocab" },
+    { "english": "Pharmacy", "spanish": "Farmacia", "type": "vocab" },
+    { "english": "The pharmacy is", "spanish": "La farmacia está", "type": "build" },
+    { "english": "The pharmacy is next to", "spanish": "La farmacia está al lado de", "type": "build" },
+    { "english": "Hospital", "spanish": "Hospital", "type": "vocab" },
+    { "english": "The hospital", "spanish": "El hospital", "type": "build" },
+    { "english": "The pharmacy is next to the hospital", "spanish": "La farmacia está al lado del hospital", "type": "build" },
+
+    { "english": "Behind", "spanish": "Detrás de", "type": "vocab" },
+    { "english": "Car", "spanish": "Coche", "type": "vocab" },
+    { "english": "My car is", "spanish": "Mi coche está", "type": "build" },
+    { "english": "My car is behind", "spanish": "Mi coche está detrás de", "type": "build" },
+    { "english": "House", "spanish": "Casa", "type": "vocab" },
+    { "english": "The house", "spanish": "La casa", "type": "build" },
+    { "english": "My car is behind the house", "spanish": "Mi coche está detrás de la casa", "type": "build" },
+
+    { "english": "Near", "spanish": "Cerca de", "type": "vocab" },
+    { "english": "Station", "spanish": "Estación", "type": "vocab" },
+    { "english": "The station is", "spanish": "La estación está", "type": "build" },
+    { "english": "The station is near", "spanish": "La estación está cerca de", "type": "build" },
+    { "english": "Here", "spanish": "Aquí", "type": "vocab" },
+    { "english": "The station is near here", "spanish": "La estación está cerca de aquí", "type": "build" },
+    { "english": "Very near", "spanish": "Muy cerca", "type": "build" },
+    { "english": "The station is very near here", "spanish": "La estación está muy cerca de aquí", "type": "build" }
+  ]
+}

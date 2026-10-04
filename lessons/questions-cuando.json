@@ -1,0 +1,34 @@
+{
+  "title": "Questions: Cuándo",
+  "steps": [
+    { "english": "When", "spanish": "Cuándo", "type": "vocab" },
+    { "english": "Is", "spanish": "Es", "type": "vocab" },
+    { "english": "Meeting", "spanish": "Reunión", "type": "vocab" },
+    { "english": "The meeting", "spanish": "La reunión", "type": "build" },
+    { "english": "When is the meeting?", "spanish": "¿Cuándo es la reunión?", "type": "build" },
+    { "english": "Next", "spanish": "Próxima", "type": "vocab" },
+    { "english": "When is the next meeting?", "spanish": "¿Cuándo es la próxima reunión?", "type": "build" },
+
+    { "english": "Arrives", "spanish": "Llega", "type": "vocab" },
+    { "english": "Train", "spanish": "Tren", "type": "vocab" },
+    { "english": "The train", "spanish": "El tren", "type": "build" },
+    { "english": "When does the train arrive?", "spanish": "¿Cuándo llega el tren?", "type": "build" },
+    { "english": "From London", "spanish": "De Londres", "type": "vocab" },
+    { "english": "When does the train arrive from London?", "spanish": "¿Cuándo llega el tren de Londres?", "type": "build" },
+
+    { "english": "We see each other", "spanish": "Nos vemos", "type": "vocab" },
+    { "english": "When do we see each other?", "spanish": "¿Cuándo nos vemos?", "type": "build" },
+    { "english": "To have (a drink or food)", "spanish": "Tomar", "type": "vocab" },
+    { "english": "Coffee", "spanish": "Café", "type": "vocab" },
+    { "english": "A coffee", "spanish": "Un café", "type": "build" },
+    { "english": "In order to have a coffee", "spanish": "Para tomar un café", "type": "build" },
+    { "english": "When do we see each other to have a coffee?", "spanish": "¿Cuándo nos vemos para tomar un café?", "type": "build" },
+
+    { "english": "You returned", "spanish": "Volviste", "type": "vocab" },
+    { "english": "When did you return?", "spanish": "¿Cuándo volviste?", "type": "build" },
+    { "english": "Holidays", "spanish": "Vacaciones", "type": "vocab" },
+    { "english": "Your holidays", "spanish": "Tus vacaciones", "type": "build" },
+    { "english": "From your holidays", "spanish": "De tus vacaciones", "type": "build" },
+    { "english": "When did you return from your holidays?", "spanish": "¿Cuándo volviste de tus vacaciones?", "type": "build" }
+  ]
+}

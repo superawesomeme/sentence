@@ -1,0 +1,195 @@
+{
+  "title": "Phonetics: Vowels A E I O U",
+  "steps": [
+    {
+      "english": "Flight",
+      "spanish": "Vuelo",
+      "type": "vocab"
+    },
+    {
+      "english": "The flight",
+      "spanish": "El vuelo",
+      "type": "build"
+    },
+    {
+      "english": "European",
+      "spanish": "Europeo",
+      "type": "vocab"
+    },
+    {
+      "english": "The European flight",
+      "spanish": "El vuelo europeo",
+      "type": "build"
+    },
+    {
+      "english": "Arrives",
+      "spanish": "Llega",
+      "type": "vocab"
+    },
+    {
+      "english": "The European flight arrives",
+      "spanish": "El vuelo europeo llega",
+      "type": "build"
+    },
+    {
+      "english": "Airport",
+      "spanish": "Aeropuerto",
+      "type": "vocab"
+    },
+    {
+      "english": "At the airport",
+      "spanish": "Al aeropuerto",
+      "type": "build"
+    },
+    {
+      "english": "The European flight arrives at the airport",
+      "spanish": "El vuelo europeo llega al aeropuerto",
+      "type": "build"
+    },
+    {
+      "english": "At eight",
+      "spanish": "A las ocho",
+      "type": "vocab"
+    },
+    {
+      "english": "The European flight",
+      "spanish": "El vuelo europeo",
+      "type": "recall"
+    },
+    {
+      "english": "The European flight arrives at the airport at eight",
+      "spanish": "El vuelo europeo llega al aeropuerto a las ocho",
+      "type": "build"
+    },
+    {
+      "english": "Museum",
+      "spanish": "Museo",
+      "type": "vocab"
+    },
+    {
+      "english": "The museum",
+      "spanish": "El museo",
+      "type": "build"
+    },
+    {
+      "english": "Theatre",
+      "spanish": "Teatro",
+      "type": "vocab"
+    },
+    {
+      "english": "The theatre",
+      "spanish": "El teatro",
+      "type": "build"
+    },
+    {
+      "english": "The museum and the theatre",
+      "spanish": "El museo y el teatro",
+      "type": "build"
+    },
+    {
+      "english": "City",
+      "spanish": "Ciudad",
+      "type": "vocab"
+    },
+    {
+      "english": "In the city",
+      "spanish": "En la ciudad",
+      "type": "build"
+    },
+    {
+      "english": "They are",
+      "spanish": "Están",
+      "type": "vocab"
+    },
+    {
+      "english": "They are in the city",
+      "spanish": "Están en la ciudad",
+      "type": "build"
+    },
+    {
+      "english": "The museum and the theatre are in the city",
+      "spanish": "El museo y el teatro están en la ciudad",
+      "type": "build"
+    },
+    {
+      "english": "Old",
+      "spanish": "Antiguo",
+      "type": "vocab"
+    },
+    {
+      "english": "The old museum",
+      "spanish": "El museo antiguo",
+      "type": "build"
+    },
+    {
+      "english": "The museum and the theatre",
+      "spanish": "El museo y el teatro",
+      "type": "recall"
+    },
+    {
+      "english": "The old museum and the theatre are in the city",
+      "spanish": "El museo antiguo y el teatro están en la ciudad",
+      "type": "build"
+    },
+    {
+      "english": "Care (Careful)",
+      "spanish": "Cuidado",
+      "type": "vocab"
+    },
+    {
+      "english": "With care",
+      "spanish": "Con cuidado",
+      "type": "build"
+    },
+    {
+      "english": "Bus",
+      "spanish": "Autobús",
+      "type": "vocab"
+    },
+    {
+      "english": "The bus",
+      "spanish": "El autobús",
+      "type": "build"
+    },
+    {
+      "english": "Station",
+      "spanish": "Estación",
+      "type": "vocab"
+    },
+    {
+      "english": "To the station",
+      "spanish": "A la estación",
+      "type": "build"
+    },
+    {
+      "english": "The bus to the station",
+      "spanish": "El autobús a la estación",
+      "type": "build"
+    },
+    {
+      "english": "Goes",
+      "spanish": "Va",
+      "type": "vocab"
+    },
+    {
+      "english": "The bus goes",
+      "spanish": "El autobús va",
+      "type": "build"
+    },
+    {
+      "english": "The bus goes to the station",
+      "spanish": "El autobús va a la estación",
+      "type": "build"
+    },
+    {
+      "english": "With care",
+      "spanish": "Con cuidado",
+      "type": "recall"
+    },
+    {
+      "english": "The bus goes to the station with care",
+      "spanish": "El autobús va a la estación con cuidado",
+      "type": "build"
+    }
+  ]
+}
