@@ -16,6 +16,7 @@ const availableLessons = [
   { path: "lessons/grammar-por-vs-para-2.json", name: "Grammar: Por vs. Para 2" },
   { path: "lessons/grammar-por-vs-para-3.json", name: "Grammar: Por vs. Para 3" },
   { path: "lessons/grammar-prepositions-place.json", name: "Grammar: Prepositions of Place" },
+  { path: "lessons/grammar-primero.json", name: "Grammar: Primero / Segundo" },
   { path: "lessons/grammar-reflexive-pronouns.json", name: "Grammar: Reflexive Pronouns" },
   { path: "lessons/grammar-saber-vs-conocer.json", name: "Grammar: Saber vs. Conocer" },
   { path: "lessons/grammar-ser-vs-estar.json", name: "Grammar: Ser vs. Estar 1" },
